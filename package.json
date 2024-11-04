@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@phi-ag/solid-pages",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Opinionated demo app running SolidStart on Cloudflare Pages",
   "license": "MIT",
   "private": true,
