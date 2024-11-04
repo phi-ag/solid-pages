@@ -22,11 +22,11 @@ export default createHandler(
               <meta charset="utf-8" />
               <meta
                 name="description"
-                content="Show Revit file information in the browser"
+                content="Opinionated demo app running SolidStart on Cloudflare Pages"
               />
               <meta name="viewport" content="width=device-width, initial-scale=1" />
               <link rel="icon" type="image/svg+xml" href={Favicon} />
-              <title>rvt.app</title>
+              <title>solid-pages</title>
               <ThemeHeaderScript />
               {assets}
             </head>
