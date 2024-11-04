@@ -42,8 +42,8 @@ export default function Home() {
   const data = createAsync(() => getData());
 
   return (
-    <main class="flex flex-1 justify-center overflow-y-auto">
-      <div class="flex flex-col items-center gap-2 py-5">
+    <main class="flex flex-1 overflow-hidden">
+      <div class="flex flex-1 flex-col items-center gap-2 overflow-y-auto overflow-x-clip px-2 py-4">
         <h1 class="text-2xl">Hello</h1>
         <Suspense fallback="Loading...">
           <pre class="text-sm">{JSON.stringify(data(), null, 2)}</pre>

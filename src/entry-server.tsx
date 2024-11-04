@@ -26,7 +26,7 @@ export default createHandler(
               />
               <meta name="viewport" content="width=device-width, initial-scale=1" />
               <link rel="icon" type="image/svg+xml" href={Favicon} />
-              <title>solid-pages</title>
+              <title>Solid Pages</title>
               <ThemeHeaderScript />
               {assets}
             </head>

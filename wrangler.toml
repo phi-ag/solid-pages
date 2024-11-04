@@ -36,12 +36,12 @@ binding = "KV"
 id = "8e48fa250b6e4a57a85c4eda600bc303"
 
 [[r2_buckets]]
-bucket_name = "solid-pages-preview"
 binding = "R2"
+bucket_name = "solid-pages-preview"
 
 [[env.production.r2_buckets]]
-bucket_name = "solid-pages-production"
 binding = "R2"
+bucket_name = "solid-pages-production"
 
 [[d1_databases]]
 binding = "DB"
