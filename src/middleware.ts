@@ -3,6 +3,7 @@ import { createMiddleware } from "@solidjs/start/middleware";
 import { type FetchEvent } from "@solidjs/start/server";
 import { type Toucan } from "toucan-js";
 import { type PlatformProxy } from "wrangler";
+
 import { createSentry } from "~/lib/sentry";
 
 type Proxy = PlatformProxy<Env, IncomingRequestCfProperties>;

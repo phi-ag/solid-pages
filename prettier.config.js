@@ -8,18 +8,8 @@ export default {
   tabWidth: 2,
   useTabs: false,
   plugins: ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
-  importOrder: [
-    "^node:",
-    "<THIRD_PARTY_MODULES>",
-    "^@layout/(.*)$",
-    "^@pages/(.*)$",
-    "^@components/(.*)$",
-    "^@lib/(.*)$",
-    "^@shaders/(.*)$",
-    "^@images/(.*)$",
-    "^[./]",
-    ".css$"
-  ],
+  importOrder: ["^node:", "<THIRD_PARTY_MODULES>", "^~/", "^\\."],
   importOrderSeparation: true,
-  importOrderSortSpecifiers: true
+  importOrderSortSpecifiers: true,
+  importOrderParserPlugins: ["typescript", "jsx"]
 };
