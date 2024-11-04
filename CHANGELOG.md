@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.1](https://github.com/phi-ag/solid-pages/compare/v1.0.0...v1.0.1) (2024-11-04)
+
+
+### Miscellaneous Chores
+
+* set compatibility date for dev ([2eca945](https://github.com/phi-ag/solid-pages/commit/2eca94593a9419e3c1dd5914b7b16e8605a80090))
+
+
+### Continuous Integration
+
+* run restore for releases ([40f94b7](https://github.com/phi-ag/solid-pages/commit/40f94b73d8df4267f7e6cc38034716d518dadaca))
+
 ## 1.0.0 (2024-11-04)
 
 
