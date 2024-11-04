@@ -1,0 +1,53 @@
+name = "solid-pages"
+pages_build_output_dir = "./dist"
+compatibility_date = "2024-11-03"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ENVIRONMENT = "preview"
+SENTRY_DSN = "https://2b1a34ea5d3b701283cff3dcbcf79da2@o931378.ingest.us.sentry.io/4508192894943232"
+JWT_ISSUER = "https://phi-ag.cloudflareaccess.com"
+JWT_AUDIENCE = "2858cbaf26a4b2a7f619f5d28ebf2378b97bef58f330c65c1d903b95697a95ba"
+E2E_CLIENT_ID = "ac524ec30129d7a7e941faf6ed54f19c.access"
+
+[env.production.vars]
+ENVIRONMENT = "production"
+SENTRY_DSN = "https://2b1a34ea5d3b701283cff3dcbcf79da2@o931378.ingest.us.sentry.io/4508192894943232"
+
+[version_metadata]
+binding = "CF_VERSION_METADATA"
+
+[env.production.version_metadata]
+binding = "CF_VERSION_METADATA"
+
+[ai]
+binding = "AI"
+
+[env.production.ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "a21ca059a1eb4cfcb6f048de17c470db"
+
+[[env.production.kv_namespaces]]
+binding = "KV"
+id = "8e48fa250b6e4a57a85c4eda600bc303"
+
+[[r2_buckets]]
+bucket_name = "solid-pages-preview"
+binding = "R2"
+
+[[env.production.r2_buckets]]
+bucket_name = "solid-pages-production"
+binding = "R2"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "solid-pages-preview"
+database_id = "a34c7479-3932-4e01-bde7-24f5c864fe3d"
+
+[[env.production.d1_databases]]
+binding = "DB"
+database_name = "solid-pages-production"
+database_id = "93b07b31-25f8-4bd9-8fc0-ebbf0c291e9a"
