@@ -46,4 +46,4 @@ Copy the token into your GitHub Action Secrets as `CLOUDFLARE_API_TOKEN`.
     terraform init
     terraform apply
 
-Use the output from terraform apply to update your [wrangler.toml](wrangler.toml).
+Use the output from `terraform apply` to update your [wrangler.toml](wrangler.toml).
