@@ -3,6 +3,9 @@ pages_build_output_dir = "./dist"
 compatibility_date = "2024-11-03"
 compatibility_flags = ["nodejs_compat"]
 
+[dev]
+port = 3000
+
 [vars]
 ENVIRONMENT = "preview"
 JWT_ISSUER = "https://phi-ag.cloudflareaccess.com"

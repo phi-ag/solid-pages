@@ -22,15 +22,19 @@ const getData = query(async () => {
 
   const d1 = await env.DB.prepare("SELECT 1;").all();
 
+  const cache = await event.locals.caches.default.match("https://example.com");
+
   return {
     metadata,
     environment,
     kv,
     r2: {
+      key: r2?.key,
       size: r2?.size,
       etag: r2?.etag
     },
-    d1
+    d1,
+    cache
   };
 }, "data");
 

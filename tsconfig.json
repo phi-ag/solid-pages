@@ -17,5 +17,5 @@
       "~/*": ["./src/*"]
     }
   },
-  "exclude": ["node_modules", ".vinxi", ".output", "dist", "reports"]
+  "exclude": ["dist", "reports"]
 }

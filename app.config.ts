@@ -10,12 +10,8 @@ export default defineConfig({
   },
   vite: {
     define: {
-      ...Object.fromEntries(
-        [
-          ["VERSION", version],
-          ["REVISION", revision]
-        ].map(([key, value]) => [`import.meta.env.${key}`, JSON.stringify(value)])
-      )
+      "import.meta.env.VERSION": JSON.stringify(version),
+      "import.meta.env.REVISION": JSON.stringify(revision)
     }
   }
 });
