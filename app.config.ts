@@ -5,7 +5,8 @@ import { revision, version } from "./utils/version.js";
 export default defineConfig({
   middleware: "./src/middleware.ts",
   server: {
-    preset: "cloudflare-pages"
+    preset: "cloudflare-pages",
+    compatibilityDate: "2024-11-03"
   },
   vite: {
     define: {
