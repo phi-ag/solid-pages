@@ -12,10 +12,12 @@
   "scripts": {
     "dev": "vinxi dev --no-clear",
     "build": "vinxi build",
-    "start": "vinxi start",
-    "preview": "wrangler pages dev ./dist",
+    "start": "wrangler pages dev ./dist",
     "typecheck": "tsc --noEmit",
     "lint": "eslint --max-warnings 0 .",
+    "test": "vitest --run",
+    "test:dev": "vitest",
+    "test:coverage": "vitest --run --coverage",
     "typegen": "wrangler types src/worker-configuration.d.ts",
     "deploy": "wrangler pages deploy --branch main",
     "deploy:production": "wrangler pages deploy --branch production",
@@ -31,6 +33,7 @@
     "class-variance-authority": "0.7.0",
     "lodash-es": "4.17.21",
     "solid-js": "1.9.3",
+    "toucan-js": "4.0.0",
     "uuid": "11.0.2"
   },
   "devDependencies": {
@@ -41,6 +44,7 @@
     "@types/eslint-plugin-jsx-a11y": "6.9.0",
     "@types/eslint__js": "8.42.3",
     "@types/lodash-es": "4.17.12",
+    "@vitest/coverage-v8": "2.1.4",
     "autoprefixer": "10.4.20",
     "eslint": "9.14.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
@@ -56,6 +60,12 @@
     "vite": "5.4.10",
     "vitest": "2.1.4",
     "wrangler": "3.84.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "@solidjs/router": "$@solidjs/router",
+      "vinxi": "$vinxi"
+    }
   },
   "engines": {
     "node": "23.1.0"

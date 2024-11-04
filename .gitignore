@@ -11,7 +11,7 @@ node_modules/
 dist/
 reports/
 
-.env
+.dev.vars
 junit.xml
 
 app.config.timestamp_*

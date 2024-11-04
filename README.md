@@ -47,3 +47,76 @@ Copy the token into your GitHub Action Secrets as `CLOUDFLARE_API_TOKEN`.
     terraform apply
 
 Use the output from `terraform apply` to update your [wrangler.toml](wrangler.toml).
+
+## Development
+
+- Create `.dev.vars` (see [.dev.vars.template](.dev.vars.template))
+- Install [fnm](https://github.com/Schniz/fnm?tab=readme-ov-file#installation)
+
+Install `Node.js`
+
+    fnm install
+    fnm use
+
+Install `pnpm`
+
+    corepack enable
+    corepack prepare --activate
+
+Install packages
+
+    pnpm i
+
+Watch
+
+    pnpm dev
+
+Deploy
+
+    pnpm build
+    pnpm run deploy
+    pnpm run deploy:production
+
+### Add environment variables
+
+- Add the variable to [wrangler.toml](wrangler.toml) in the `[vars]` and `[env.production.vars]` sections
+- Run `pnpm typegen`
+
+### Secrets
+
+#### List secrets
+
+    pnpm wrangler pages secret list --env preview
+    pnpm wrangler pages secret list
+
+#### Add secrets
+
+    pnpm wrangler pages secret put MY_SECRET --env preview
+    pnpm wrangler pages secret put MY_SECRET
+
+- Add the secret to `.dev.vars` and [.dev.vars.template](.dev.vars.template)
+- Run `pnpm typegen`
+
+### Stream logs
+
+    pnpm tail
+    pnpm tail:production
+
+### Deployments
+
+    pnpm wrangler pages deployment list
+
+### KV
+
+    pnpm wrangler kv key list --binding KV
+    pnpm wrangler kv key list --binding KV --env production
+
+### R2
+
+    pnpm wrangler r2 object get solid-pages-preview/ -p | jq
+    pnpm wrangler r2 object get solid-pages-production/ -p | jq
+
+### D1
+
+    pnpm wrangler d1 info solid-pages-preview
+    pnpm wrangler d1 info solid-pages-production
