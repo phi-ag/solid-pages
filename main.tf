@@ -216,7 +216,7 @@ resource "cloudflare_zero_trust_access_application" "preview" {
   account_id                = var.cloudflare_account_id
   name                      = cloudflare_pages_domain.preview.domain
   domain                    = cloudflare_pages_domain.preview.domain
-  self_hosted_domains       = [cloudflare_pages_domain.preview.domain, cloudflare_pages_project.page.subdomain, "*.${cloudflare_pages_project.page.subdomain}"]
+  self_hosted_domains       = [cloudflare_pages_domain.preview.domain, "*.${cloudflare_pages_project.page.subdomain}"]
   type                      = "self_hosted"
   session_duration          = "24h"
   allowed_idps              = [data.cloudflare_zero_trust_access_identity_provider.idp.id]
@@ -225,6 +225,10 @@ resource "cloudflare_zero_trust_access_application" "preview" {
     cloudflare_zero_trust_access_policy.github_organization.id,
     cloudflare_zero_trust_access_policy.e2e.id
   ]
+}
+
+output "domain_page" {
+  value = cloudflare_pages_project.page.subdomain
 }
 
 output "domain_preview" {
