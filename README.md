@@ -21,7 +21,7 @@ Opinionated demo app running [SolidStart](https://start.solidjs.com/) on [Cloudf
 
 > :warning: **Cloudflare Account API tokens currently can't be used to create Pages with Terraform** (internal server error)
 
-Create a personal API token for terraform with the following permissions
+Create a personal API token for Terraform with the following permissions
 
 - Account / D1 / Edit
 - Account / Cloudflare Pages / Edit
@@ -46,12 +46,11 @@ Copy the token into your GitHub Action Secrets as `CLOUDFLARE_API_TOKEN`.
     terraform init
     terraform apply
 
-Use the output from `terraform apply` to update your [wrangler.toml](wrangler.toml).
+Use the output from `terraform apply` (or `terraform output`) to update [wrangler.toml](wrangler.toml).
 
 ## Development
 
-- Create `.dev.vars` (see [.dev.vars.template](.dev.vars.template))
-- Install [fnm](https://github.com/Schniz/fnm?tab=readme-ov-file#installation)
+Create `.dev.vars` (see [.dev.vars.template](.dev.vars.template))
 
 Install `Node.js`
 
