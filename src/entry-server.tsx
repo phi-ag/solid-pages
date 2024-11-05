@@ -30,7 +30,7 @@ export default createHandler(
               <ThemeHeaderScript />
               {assets}
             </head>
-            <body class="flex h-full w-full flex-col bg-gradient-to-br from-slate-950 to-slate-800 text-base text-slate-100 antialiased">
+            <body class="flex h-full w-full flex-col bg-slate-200 text-base text-slate-900 antialiased dark:bg-slate-800 dark:text-slate-100">
               <noscript class="mx-2 my-4 flex flex-col items-center gap-2">
                 <span class="text-title-lg text-center">
                   This app requires JavaScript ⚡
