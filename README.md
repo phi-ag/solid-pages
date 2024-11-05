@@ -30,6 +30,7 @@ Create a personal API token for terraform with the following permissions
 - Account / Access: Apps and Policies / Edit
 - Account / Access: Service Tokens / Edit
 - Account / Access: Organizations, Identity Providers, and Groups / Read
+- Account / Bulk URL Redirects / Edit
 - Zone / DNS / Edit
 
 Copy the token into your Terraform Cloud Workspace variables as `cloudflare_api_token` (sensitive).

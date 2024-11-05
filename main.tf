@@ -227,6 +227,49 @@ resource "cloudflare_zero_trust_access_application" "preview" {
   ]
 }
 
+resource "cloudflare_list" "redirect_custom_domain" {
+  account_id  = var.cloudflare_account_id
+  name        = "${replace(var.pages_project_name, "-", "_")}_custom_domain_redirect"
+  description = "Redirect ${var.pages_project_name} to custom domain"
+  kind        = "redirect"
+
+  item {
+    value {
+      redirect {
+        source_url            = cloudflare_pages_project.page.subdomain
+        target_url            = "https://${cloudflare_pages_domain.production.domain}/"
+        status_code           = 301
+        include_subdomains    = "enabled"
+        subpath_matching      = "enabled"
+        preserve_query_string = "enabled"
+        preserve_path_suffix  = "enabled"
+      }
+    }
+    comment = "Redirect ${var.pages_project_name} to custom domain"
+  }
+}
+
+resource "cloudflare_ruleset" "redirect_custom_domain" {
+  account_id  = var.cloudflare_account_id
+  name        = "${var.pages_project_name}-custom-domain-redirect"
+  description = "Redirect ${var.pages_project_name} to custom domain"
+  kind        = "root"
+  phase       = "http_request_redirect"
+
+  rules {
+    action = "redirect"
+    action_parameters {
+      from_list {
+        name = cloudflare_list.redirect_custom_domain.name
+        key  = "http.request.full_uri"
+      }
+    }
+    expression  = "http.request.full_uri in ${"$"}${cloudflare_list.redirect_custom_domain.name}"
+    description = "Redirect ${var.pages_project_name} to custom domain"
+    enabled     = true
+  }
+}
+
 output "domain_page" {
   value = cloudflare_pages_project.page.subdomain
 }
