@@ -2,6 +2,7 @@ import {
   type CacheStorage,
   type IncomingRequestCfProperties
 } from "@cloudflare/workers-types/experimental";
+import { redirect } from "@solidjs/router";
 import { createMiddleware } from "@solidjs/start/middleware";
 import { type FetchEvent } from "@solidjs/start/server";
 import { type Toucan } from "toucan-js";
@@ -53,6 +54,21 @@ const cloudflare = async (event: FetchEvent) => {
   }
 };
 
+// Not working as expected, see https://github.com/solidjs/solid-start/issues/1523
+const redirectToDomain = async (event: FetchEvent) => {
+  if (import.meta.env.DEV) return;
+
+  const domain = event.locals.env.DOMAIN;
+  const url = new URL(event.request.url);
+
+  if (url.host !== domain) {
+    url.host = domain;
+    url.protocol = "https:";
+    url.port = "443";
+    return redirect(url.href);
+  }
+};
+
 const sentry = async (event: FetchEvent) => {
   if (!event.locals.sentry) {
     event.locals.sentry = createSentry(event);
@@ -60,5 +76,5 @@ const sentry = async (event: FetchEvent) => {
 };
 
 export default createMiddleware({
-  onRequest: [cloudflare, sentry]
+  onRequest: [cloudflare, redirectToDomain, sentry]
 });
