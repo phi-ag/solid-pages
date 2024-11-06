@@ -213,14 +213,16 @@ resource "cloudflare_zero_trust_access_policy" "e2e" {
 }
 
 resource "cloudflare_zero_trust_access_application" "preview" {
-  account_id                = var.cloudflare_account_id
-  name                      = cloudflare_pages_domain.preview.domain
-  domain                    = cloudflare_pages_domain.preview.domain
-  self_hosted_domains       = [cloudflare_pages_domain.preview.domain, "*.${cloudflare_pages_project.page.subdomain}"]
-  type                      = "self_hosted"
-  session_duration          = "24h"
-  allowed_idps              = [data.cloudflare_zero_trust_access_identity_provider.idp.id]
-  auto_redirect_to_identity = true
+  account_id                 = var.cloudflare_account_id
+  name                       = cloudflare_pages_domain.preview.domain
+  domain                     = cloudflare_pages_domain.preview.domain
+  self_hosted_domains        = [cloudflare_pages_domain.preview.domain, "*.${cloudflare_pages_project.page.subdomain}"]
+  type                       = "self_hosted"
+  session_duration           = "24h"
+  auto_redirect_to_identity  = true
+  http_only_cookie_attribute = true
+  same_site_cookie_attribute = "lax"
+  allowed_idps               = [data.cloudflare_zero_trust_access_identity_provider.idp.id]
   policies = [
     cloudflare_zero_trust_access_policy.github_organization.id,
     cloudflare_zero_trust_access_policy.e2e.id
