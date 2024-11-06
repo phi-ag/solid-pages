@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.1.2](https://github.com/phi-ag/solid-pages/compare/v1.1.1...v1.1.2) (2024-11-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @solidjs/router to v0.15.1 ([d4f6c67](https://github.com/phi-ag/solid-pages/commit/d4f6c67cb1a0acaf5014ee8b1e8ff8f4fb4c3a42))
+
+
+### Documentation
+
+* remove redundant fnm install instruction ([193a1ad](https://github.com/phi-ag/solid-pages/commit/193a1adce64046d4a25ac2f596d0991c54527e17))
+
+
+### Miscellaneous Chores
+
+* remove comment, redirect to domain is working as expected ([cac5147](https://github.com/phi-ag/solid-pages/commit/cac51474ec237828f3c33c072f3ffa85596d1baf))
+* **renovate:** upgrade to unstable @types/node ([0ae8ccd](https://github.com/phi-ag/solid-pages/commit/0ae8ccd19526dd4de4ec83c9b02f712c2e832466))
+* set cf jwt cookie http-only and same-site attributes ([2f16a56](https://github.com/phi-ag/solid-pages/commit/2f16a5647fbb80bb1da26c667130d69ab1b8d398))
+
 ## [1.1.1](https://github.com/phi-ag/solid-pages/compare/v1.1.0...v1.1.1) (2024-11-05)
 
 
