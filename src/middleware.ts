@@ -54,7 +54,6 @@ const cloudflare = async (event: FetchEvent) => {
   }
 };
 
-// Not working as expected, see https://github.com/solidjs/solid-start/issues/1523
 const redirectToDomain = async (event: FetchEvent) => {
   if (import.meta.env.DEV) return;
 
