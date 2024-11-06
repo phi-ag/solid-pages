@@ -8,7 +8,7 @@
   ],
   "postUpdateOptions": ["pnpmDedupe"],
   "packageRules": [
-    { "matchDepNames": ["node"], "ignoreUnstable": false },
+    { "matchDepNames": ["node", "@types/node"], "ignoreUnstable": false },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "matchCurrentVersion": "!/^0/",
