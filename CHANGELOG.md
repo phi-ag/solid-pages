@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.0](https://github.com/phi-ag/solid-pages/compare/v1.1.2...v1.2.0) (2024-11-08)
+
+
+### Features
+
+* add app error boundary ([3d974b7](https://github.com/phi-ag/solid-pages/commit/3d974b7097e350f0753612e2da2070d74906c5c5))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @cloudflare/workers-types to v4.20241106.0 ([d916584](https://github.com/phi-ag/solid-pages/commit/d91658418dffdaed84be15e695439a33b487fd75))
+* **deps:** update dependency wrangler to v3.85.0 ([9de84e4](https://github.com/phi-ag/solid-pages/commit/9de84e4e3466ea1d71c12b5ca1cc02cf656a6660))
+* **deps:** update dependency wrangler to v3.86.0 ([e82968a](https://github.com/phi-ag/solid-pages/commit/e82968a4937b8c304fa5ceb3d02b664ccb8866b0))
+* **renovate:** enable automerge for @solidjs/router and vinxi ([89553c8](https://github.com/phi-ag/solid-pages/commit/89553c89bcc21d5f12024c24d8068e896e41cd20))
+
 ## [1.1.2](https://github.com/phi-ag/solid-pages/compare/v1.1.1...v1.1.2) (2024-11-06)
 
 
