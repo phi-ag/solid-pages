@@ -60,10 +60,9 @@ const redirectToDomain = async (event: FetchEvent) => {
   const domain = event.locals.env.DOMAIN;
   const url = new URL(event.request.url);
 
-  if (url.host !== domain) {
+  if (url.hostname !== "localhost" && url.host !== domain) {
     url.host = domain;
     url.protocol = "https:";
-    url.port = "443";
     return redirect(url.href);
   }
 };

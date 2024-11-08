@@ -21,7 +21,9 @@ const fonts = ["font-src", "'self'"].join(" ");
 
 const images = ["img-src", "'self'", "https:", "data:"].join(" ");
 
-const connect = compact(["connect-src", "'self'", import.meta.env.DEV && "*"]).join(" ");
+const connect = compact(["connect-src", "'self'", import.meta.env.DEV && "data: *"]).join(
+  " "
+);
 
 const worker = ["worker-src", "'self'"].join(" ");
 
@@ -45,7 +47,7 @@ const csp = (nonce: string) =>
   ].join(";");
 
 const CspHeader: Component = () => {
-  // @ts-ignore
+  // @ts-expect-error
   const nonce = getRequestEvent()?.nonce;
   return <HttpHeader name="Content-Security-Policy" value={csp(nonce)} />;
 };
