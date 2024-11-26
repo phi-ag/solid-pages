@@ -30,7 +30,7 @@
   "dependencies": {
     "@solidjs/router": "0.15.1",
     "@solidjs/start": "1.0.10",
-    "class-variance-authority": "0.7.0",
+    "class-variance-authority": "0.7.1",
     "lodash-es": "4.17.21",
     "solid-js": "1.9.3",
     "toucan-js": "4.0.0",
