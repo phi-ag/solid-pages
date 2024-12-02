@@ -44,7 +44,7 @@
     "@types/eslint-plugin-jsx-a11y": "6.10.0",
     "@types/eslint__js": "8.42.3",
     "@types/lodash-es": "4.17.12",
-    "@vitest/coverage-v8": "2.1.6",
+    "@vitest/coverage-v8": "2.1.7",
     "autoprefixer": "10.4.20",
     "eslint": "9.16.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
@@ -58,7 +58,7 @@
     "typescript-eslint": "8.16.0",
     "vinxi": "0.4.3",
     "vite": "5.4.11",
-    "vitest": "2.1.6",
+    "vitest": "2.1.7",
     "wrangler": "3.91.0"
   },
   "pnpm": {
