@@ -22,6 +22,7 @@
         "@solidjs/router",
         "vinxi",
         "class-variance-authority",
+        "eslint-plugin-solid",
         "prettier-plugin-tailwindcss"
       ],
       "automerge": true
