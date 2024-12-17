@@ -37,7 +37,7 @@
     "uuid": "11.0.3"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20241205.0",
+    "@cloudflare/workers-types": "4.20241216.0",
     "@eslint/js": "9.17.0",
     "@testing-library/jest-dom": "6.6.3",
     "@trivago/prettier-plugin-sort-imports": "5.2.0",
@@ -60,7 +60,7 @@
     "vite": "6.0.3",
     "vite-plugin-solid": "2.11.0",
     "vitest": "2.1.8",
-    "wrangler": "3.95.0"
+    "wrangler": "3.96.0"
   },
   "pnpm": {
     "overrides": {
