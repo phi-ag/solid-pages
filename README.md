@@ -20,7 +20,8 @@ Opinionated demo app running [SolidStart](https://start.solidjs.com/) on [Cloudf
 
 ### Cloudflare API token
 
-> :warning: **Cloudflare Account API tokens currently can't be used to create Pages with Terraform** (internal server error)
+> [!WARNING]
+> Cloudflare Account API tokens currently can't be used to create Pages with Terraform (internal server error)
 
 Create a personal API token for Terraform with the following permissions
 
@@ -169,7 +170,8 @@ Deploy
 
 ### D1
 
-> :warning: After switching to a new D1 you need to update the `url` in [drizzle.config.ts](drizzle.config.ts) and the database name in [package.json](package.json)
+> [!WARNING]
+> When switching D1 you need to update the `url` in [drizzle.config.ts](drizzle.config.ts) and the database name in [package.json](package.json)
 
 Info
 
