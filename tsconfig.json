@@ -10,7 +10,7 @@
     "allowJs": true,
     "noEmit": true,
     "strict": true,
-    "types": ["vinxi/client", "vite/client"],
+    "types": ["vinxi/types/client"],
     "isolatedModules": true,
     "skipLibCheck": true,
     "paths": {

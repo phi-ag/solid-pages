@@ -7,7 +7,14 @@ import tseslint from "typescript-eslint";
 
 export default tseslint.config(
   {
-    ignores: ["dist/**", ".vinxi/**", ".output/**", "app.config.timestamp_*"]
+    ignores: [
+      "src/env.d.ts",
+      "src/worker.d.ts",
+      "dist/**",
+      ".vinxi/**",
+      ".output/**",
+      "app.config.timestamp_*"
+    ]
   },
   eslint.configs.recommended,
   ...tseslint.configs.strict,
@@ -17,9 +24,7 @@ export default tseslint.config(
   {
     files: ["**/*.js"],
     languageOptions: {
-      globals: {
-        ...globals.node
-      }
+      globals: globals.node
     }
   },
   {

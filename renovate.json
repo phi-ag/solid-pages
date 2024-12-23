@@ -13,7 +13,7 @@
       "ignoreUnstable": false
     },
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest", "pinDigest"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
     },
@@ -30,10 +30,6 @@
     {
       "groupName": "solid-start",
       "matchPackageNames": ["@solidjs/start", "vinxi"]
-    },
-    {
-      "groupName": "wrangler",
-      "matchPackageNames": ["wrangler", "@cloudflare/workers-types"]
     }
   ]
 }

@@ -1,7 +1,3 @@
-import {
-  type CacheStorage,
-  type IncomingRequestCfProperties
-} from "@cloudflare/workers-types/experimental";
 import { redirect } from "@solidjs/router";
 import { createMiddleware } from "@solidjs/start/middleware";
 import { type FetchEvent } from "@solidjs/start/server";
@@ -11,6 +7,11 @@ import { type PlatformProxy } from "wrangler";
 import { createSentry } from "~/lib/sentry";
 
 type Proxy = PlatformProxy<Env, IncomingRequestCfProperties>;
+
+interface CacheStorage {
+  open(cacheName: string): Promise<Cache>;
+  readonly default: Cache;
+}
 
 declare global {
   // eslint-disable-next-line no-var
