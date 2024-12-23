@@ -55,6 +55,11 @@ Alternatively if you want to protect the production deployment copy `JWT_ISSUER`
 
 Follow the official documentation to setup the [GitHub Identity Provider](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/github/) and update [terraform.tfvars](terraform.tfvars).
 
+Add `E2E_CLIENT_ID` and `E2E_CLIENT_SECRET` to your GitHub Action Secrets
+
+    terraform output -raw e2e_client_id
+    terraform output -raw e2e_client_secret
+
 ### Terraform
 
 Update [terraform.tfvars](terraform.tfvars)
@@ -86,6 +91,17 @@ Install packages
 Watch
 
     pnpm dev
+
+Test
+
+    pnpm test
+    pnpm test:dev
+
+End-to-End tests
+
+    pnpm playwright install chromium
+    pnpm test:e2e --project=chromium
+    pnpm test:e2e:dev --project=chromium
 
 Deploy
 
