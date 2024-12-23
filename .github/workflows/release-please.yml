@@ -31,10 +31,21 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: pnpm build
 
+      - name: Migrate
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          pnpm wrangler d1 migrations apply \
+            solid-pages-production \
+            --env production \
+            --remote
+
       - name: Deploy
         if: ${{ steps.release.outputs.release_created }}
         env:
-          CLOUDFLARE_ACCOUNT_ID: ed0328e15e9ed659e6622db636c39337
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: >
           pnpm wrangler pages deploy

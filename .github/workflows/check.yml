@@ -34,5 +34,12 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Migrate
+        run: |
+          pnpm wrangler d1 migrations apply \
+            solid-pages-preview \
+            --env preview \
+            --local
+
       - name: End-to-End
         uses: ./.github/actions/e2e

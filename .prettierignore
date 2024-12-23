@@ -1,3 +1,5 @@
+drizzle/
+
 pnpm-lock.yaml
 src/env.d.ts
 src/worker.d.ts

@@ -28,13 +28,18 @@
     "tail:production": "wrangler pages deployment tail --project-name solid-pages",
     "format": "prettier --write \"**/*.{js,ts,tsx,json,css,yml,yaml}\"",
     "format:check": "prettier --check \"**/*.{js,ts,tsx,json,css,yml,yaml}\"",
-    "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test"
+    "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
+    "db:migrate": "wrangler d1 migrations apply solid-pages-preview --local",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@sentry/core": "8.47.0",
     "@solidjs/router": "0.15.2",
     "@solidjs/start": "1.0.10",
     "class-variance-authority": "0.7.1",
+    "drizzle-orm": "0.38.2",
     "lodash-es": "4.17.21",
     "solid-js": "1.9.3",
     "toucan-js": "4.0.0",
@@ -51,6 +56,8 @@
     "@types/lodash-es": "4.17.12",
     "@vitest/coverage-v8": "2.1.8",
     "autoprefixer": "10.4.20",
+    "better-sqlite3": "11.7.0",
+    "drizzle-kit": "0.30.1",
     "eslint": "9.17.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-solid": "0.14.5",

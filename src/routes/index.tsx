@@ -1,6 +1,10 @@
 import { createAsync, query } from "@solidjs/router";
+import { sql } from "drizzle-orm";
 import { Suspense } from "solid-js";
 import { getRequestEvent } from "solid-js/web";
+
+import { visitor } from "~/db/schema";
+import { randomName } from "~/lib/random";
 
 const getData = query(async () => {
   "use server";
@@ -22,7 +26,10 @@ const getData = query(async () => {
   await env.R2.put(r2Key, "Hello, World!");
   const r2 = await env.R2.get(r2Key);
 
-  const d1 = await env.DB.prepare("SELECT 1;").all();
+  const db = event.locals.db;
+  await db.insert(visitor).values({ name: randomName() });
+  await db.run(sql`DELETE FROM visitor ORDER BY id DESC LIMIT -1 OFFSET 5`);
+  const visitors = await db.query.visitor.findMany();
 
   const cache = await event.locals.caches.default.match("https://example.com");
 
@@ -36,7 +43,7 @@ const getData = query(async () => {
       size: r2?.size,
       etag: r2?.etag
     },
-    d1,
+    visitors,
     cache
   };
 }, "data");

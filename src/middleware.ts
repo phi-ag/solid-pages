@@ -5,6 +5,7 @@ import { type Toucan } from "toucan-js";
 import { sendWebResponse } from "vinxi/http";
 import { type PlatformProxy } from "wrangler";
 
+import { type Database, createDb } from "~/db/client";
 import { tryGetUser } from "~/lib/jwt";
 import { type Log, createLog } from "~/lib/log";
 import { createSentry } from "~/lib/sentry";
@@ -31,6 +32,7 @@ declare module "@solidjs/start/server" {
     sentry: Toucan;
     log: Log;
     user?: string;
+    db: Database;
   }
 }
 
@@ -90,6 +92,10 @@ const user = async (event: FetchEvent): Promise<Response | undefined> => {
   event.locals.user = user;
 };
 
+const db = (event: FetchEvent): void => {
+  event.locals.db = createDb(event);
+};
+
 export default createMiddleware({
-  onRequest: [cloudflare, redirectToDomain, sentry, user]
+  onRequest: [cloudflare, redirectToDomain, sentry, user, db]
 });

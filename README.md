@@ -37,6 +37,7 @@ Copy the token into your Terraform Cloud Workspace variables as `cloudflare_api_
 
 Create a API token for GitHub with the following permissions
 
+- Account / D1 / Edit
 - Account / Cloudflare Pages / Edit
 
 Copy the token into your GitHub Action Secrets as `CLOUDFLARE_API_TOKEN`.
@@ -98,6 +99,10 @@ Install packages
 
     pnpm i
 
+Apply migrations
+
+    pnpm db:migrate
+
 Watch
 
     pnpm dev
@@ -112,6 +117,10 @@ End-to-End tests
     pnpm playwright install chromium
     pnpm test:e2e --project=chromium
     pnpm test:e2e:dev --project=chromium
+
+Run format, lint, typecheck and test
+
+    pnpm check
 
 Deploy
 
@@ -160,5 +169,25 @@ Deploy
 
 ### D1
 
+> :warning: After switching to a new D1 you need to update the `url` in [drizzle.config.ts](drizzle.config.ts) and the database name in [package.json](package.json)
+
+Info
+
     pnpm wrangler d1 info solid-pages-preview
     pnpm wrangler d1 info solid-pages-production
+
+Push changes during development
+
+    pnpm db:push
+
+Start Drizzle Studio
+
+    pnpm db:studio
+
+Generate migration
+
+    pnpm db:generate --name <name>
+
+Apply migrations
+
+    pnpm db:migrate

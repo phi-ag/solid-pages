@@ -49,8 +49,10 @@ bucket_name = "solid-pages-production"
 binding = "DB"
 database_name = "solid-pages-preview"
 database_id = "a34c7479-3932-4e01-bde7-24f5c864fe3d"
+migrations_dir = "drizzle"
 
 [[env.production.d1_databases]]
 binding = "DB"
 database_name = "solid-pages-production"
 database_id = "93b07b31-25f8-4bd9-8fc0-ebbf0c291e9a"
+migrations_dir = "drizzle"
