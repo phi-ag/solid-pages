@@ -51,9 +51,13 @@ If you don't want this setup you can remove everything related to Zero Trust, JW
 
 Alternatively if you want to protect the production deployment copy `JWT_ISSUER`, `JWT_AUDIENCE` and `E2E_CLIENT_ID` to `[env.production.vars]` in your [wrangler.toml](wrangler.toml) and add the production domains to the Zero Trust Application in [main.tf](main.tf).
 
-```patch
--  self_hosted_domains        = [cloudflare_pages_domain.preview.domain, "*.${cloudflare_pages_project.page.subdomain}"]
-+  self_hosted_domains        = [cloudflare_pages_domain.production.domain, cloudflare_pages_domain.preview.domain, cloudflare_pages_project.page.subdomain, "*.${cloudflare_pages_project.page.subdomain}"]
+```tf
+destinations {
+  uri = cloudflare_pages_domain.production.domain
+}
+destinations {
+  uri = cloudflare_pages_project.page.subdomain
+}
 ```
 
 Follow the official documentation to setup the [GitHub Identity Provider](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/github/) and update [terraform.tfvars](terraform.tfvars).

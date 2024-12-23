@@ -56,13 +56,6 @@ variable "pages_production_branch" {
   description = "The name of the branch that is used for the production environment."
 }
 
-# see https://registry.terraform.io/providers/cloudflare/cloudflare/4.44.0/docs/resources/pages_project#nested-schema-for-build_config
-variable "pages_build_output_dir" {
-  type        = string
-  default     = "dist"
-  description = "Output directory of the build."
-}
-
 # see https://registry.terraform.io/providers/cloudflare/cloudflare/4.44.0/docs/resources/workers_kv_namespace
 variable "kv_namespace" {
   type        = string
@@ -215,7 +208,6 @@ resource "cloudflare_zero_trust_access_application" "preview" {
   account_id                 = var.cloudflare_account_id
   name                       = cloudflare_pages_domain.preview.domain
   domain                     = cloudflare_pages_domain.preview.domain
-  self_hosted_domains        = [cloudflare_pages_domain.preview.domain, "*.${cloudflare_pages_project.page.subdomain}"]
   type                       = "self_hosted"
   session_duration           = "24h"
   auto_redirect_to_identity  = true
@@ -226,6 +218,12 @@ resource "cloudflare_zero_trust_access_application" "preview" {
     cloudflare_zero_trust_access_policy.github_organization.id,
     cloudflare_zero_trust_access_policy.e2e.id
   ]
+  destinations {
+    uri = cloudflare_pages_domain.preview.domain
+  }
+  destinations {
+    uri = "*.${cloudflare_pages_project.page.subdomain}"
+  }
 }
 
 output "domain_page" {
