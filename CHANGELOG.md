@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.4.1](https://github.com/phi-ag/solid-pages/compare/v1.4.0...v1.4.1) (2024-12-23)
+
+
+### Bug Fixes
+
+* allow cloudflareinsights.com in csp ([2899e5b](https://github.com/phi-ag/solid-pages/commit/2899e5bf63bf07a24fd925a25906c4cea8da7b09))
+* **e2e:** send client credentials only to base url ([ac222cd](https://github.com/phi-ag/solid-pages/commit/ac222cd97974803ef0862b38930698f0471ab742))
+
+
+### Documentation
+
+* e2e client credentials are available after applying terraform ([c924ecb](https://github.com/phi-ag/solid-pages/commit/c924ecbd1acaefc2dfd8c34907d7e7468222fdf4))
+
+
+### Miscellaneous Chores
+
+* add codecov ([8902146](https://github.com/phi-ag/solid-pages/commit/89021464666e24091d3cc524c72d28522379fee6))
+* **deps:** update codecov/codecov-action digest to 1e68e06 ([c02c8a4](https://github.com/phi-ag/solid-pages/commit/c02c8a42a7e2cccad56b789807a35b1c7a5ae2dc))
+
+
+### Continuous Integration
+
+* run tests ([8a33b34](https://github.com/phi-ag/solid-pages/commit/8a33b3433f1992683379428ba9027a0fa2ddc41e))
+
 ## [1.4.0](https://github.com/phi-ag/solid-pages/compare/v1.3.0...v1.4.0) (2024-12-23)
 
 
