@@ -2,6 +2,7 @@
 
 [![Production](https://shields.io/badge/production-blue?style=for-the-badge)](https://solid-pages.phi.ag)
 [![Preview](https://shields.io/badge/preview-yellow?style=for-the-badge)](https://preview-solid-pages.phi.ag)
+[![Coverage](https://img.shields.io/codecov/c/github/phi-ag/solid-pages?style=for-the-badge)](https://app.codecov.io/github/phi-ag/solid-pages)
 
 Opinionated demo app running [SolidStart](https://start.solidjs.com/) on [Cloudflare Pages](https://pages.cloudflare.com/).
 
