@@ -2,8 +2,11 @@ import { redirect } from "@solidjs/router";
 import { createMiddleware } from "@solidjs/start/middleware";
 import { type FetchEvent } from "@solidjs/start/server";
 import { type Toucan } from "toucan-js";
+import { sendWebResponse } from "vinxi/http";
 import { type PlatformProxy } from "wrangler";
 
+import { tryGetUser } from "~/lib/jwt";
+import { Log, createLog } from "~/lib/log";
 import { createSentry } from "~/lib/sentry";
 
 type Proxy = PlatformProxy<Env, IncomingRequestCfProperties>;
@@ -26,6 +29,8 @@ declare module "@solidjs/start/server" {
     waitUntil: (promise: Promise<unknown>) => void;
     passThroughOnException: () => void;
     sentry: Toucan;
+    log: Log;
+    user?: string;
   }
 }
 
@@ -38,7 +43,7 @@ const ensurePlatformProxy = async (): Promise<Proxy> => {
 };
 
 const cloudflare = async (event: FetchEvent) => {
-  if (import.meta.env.DEV && !event.locals.cf) {
+  if (import.meta.env.DEV) {
     const platformProxy = await ensurePlatformProxy();
     event.locals.cf = platformProxy.cf;
     event.locals.env = platformProxy.env;
@@ -69,11 +74,22 @@ const redirectToDomain = async (event: FetchEvent) => {
 };
 
 const sentry = async (event: FetchEvent) => {
-  if (!event.locals.sentry) {
-    event.locals.sentry = createSentry(event);
+  event.locals.sentry = createSentry(event);
+  event.locals.log = createLog(event.locals.sentry);
+};
+
+const user = async (event: FetchEvent): Promise<Response | undefined> => {
+  if (!event.locals.env.JWT_ISSUER) return;
+
+  const user = await tryGetUser(event);
+  if (!user) {
+    await sendWebResponse(new Response("Unauthorized", { status: 401 }));
+    return;
   }
+
+  event.locals.user = user;
 };
 
 export default createMiddleware({
-  onRequest: [cloudflare, redirectToDomain, sentry]
+  onRequest: [cloudflare, redirectToDomain, sentry, user]
 });

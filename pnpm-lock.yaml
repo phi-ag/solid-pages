@@ -11,6 +11,9 @@ importers:
 
   .:
     dependencies:
+      '@sentry/core':
+        specifier: 8.47.0
+        version: 8.47.0
       '@solidjs/router':
         specifier: 0.15.2
         version: 0.15.2(solid-js@1.9.3)
@@ -32,6 +35,9 @@ importers:
       uuid:
         specifier: 11.0.3
         version: 11.0.3
+      zod:
+        specifier: 3.24.1
+        version: 3.24.1
     devDependencies:
       '@eslint/js':
         specifier: 9.17.0
@@ -1212,6 +1218,10 @@ packages:
     resolution: {integrity: sha512-ZvK2jBafvttJjoIdKm/Q/Bh7IJ1Ose9IBOwpOXcOvW3ikGTQGmKDgxTC6oCAzW6PynbkKP8+um1du81XJHZ0JA==}
     cpu: [x64]
     os: [win32]
+
+  '@sentry/core@8.47.0':
+    resolution: {integrity: sha512-iSEJZMe3DOcqBFZQAqgA3NB2lCWBc4Gv5x/SCri/TVg96wAlss4VrUunSI2Mp0J4jJ5nJcJ2ChqHSBAU48k3FA==}
+    engines: {node: '>=14.18'}
 
   '@sentry/core@8.9.2':
     resolution: {integrity: sha512-ixm8NISFlPlEo3FjSaqmq4nnd13BRHoafwJ5MG+okCz6BKGZ1SexEggP42/QpGvDprUUHnfncG6WUMgcarr1zA==}
@@ -4842,6 +4852,8 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.28.1':
     optional: true
+
+  '@sentry/core@8.47.0': {}
 
   '@sentry/core@8.9.2':
     dependencies:

@@ -28,13 +28,15 @@
     "check": "pnpm format:check && pnpm lint && pnpm typecheck"
   },
   "dependencies": {
+    "@sentry/core": "8.47.0",
     "@solidjs/router": "0.15.2",
     "@solidjs/start": "1.0.10",
     "class-variance-authority": "0.7.1",
     "lodash-es": "4.17.21",
     "solid-js": "1.9.3",
     "toucan-js": "4.0.0",
-    "uuid": "11.0.3"
+    "uuid": "11.0.3",
+    "zod": "3.24.1"
   },
   "devDependencies": {
     "@eslint/js": "9.17.0",

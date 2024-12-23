@@ -9,6 +9,8 @@ const getData = query(async () => {
   if (!event) throw Error("Missing event");
 
   const env = event.locals.env;
+
+  const user = event.locals.user;
   const metadata = env.CF_VERSION_METADATA;
   const environment = env.ENVIRONMENT;
 
@@ -25,6 +27,7 @@ const getData = query(async () => {
   const cache = await event.locals.caches.default.match("https://example.com");
 
   return {
+    user,
     metadata,
     environment,
     kv,
