@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/phi-ag/solid-pages/compare/v1.2.0...v1.3.0) (2024-12-23)
+
+
+### Features
+
+* e2e tests ([5339c5b](https://github.com/phi-ag/solid-pages/commit/5339c5bef171e03ca48d8d7159f94e9c674a8354))
+
+
+### Documentation
+
+* zero trust setup ([5267ade](https://github.com/phi-ag/solid-pages/commit/5267ade16f9ad87dcb39367e02f1c4837e49c4d9))
+
 ## [1.2.0](https://github.com/phi-ag/solid-pages/compare/v1.1.2...v1.2.0) (2024-12-23)
 
 
