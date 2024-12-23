@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/phi-ag/solid-pages/compare/v1.3.0...v1.4.0) (2024-12-23)
+
+
+### Features
+
+* add web analytics ([beed585](https://github.com/phi-ag/solid-pages/commit/beed58573c4f78953c5860fa3a2fecc00c7c4588))
+
+
+### Miscellaneous Chores
+
+* update .terraformignore and ignore pages build config changes ([6b12cc3](https://github.com/phi-ag/solid-pages/commit/6b12cc3be29affc55a46c41820a032c25094fda0))
+
 ## [1.3.0](https://github.com/phi-ag/solid-pages/compare/v1.2.0...v1.3.0) (2024-12-23)
 
 
