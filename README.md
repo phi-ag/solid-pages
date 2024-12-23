@@ -1,7 +1,7 @@
 # Solid Pages
 
 [![Production](https://shields.io/badge/production-blue?style=for-the-badge)](https://solid-pages.phi.ag)
-[![Preview](https://shields.io/badge/preview-yellow?style=for-the-badge)](https://preview-solid-pages.phi.ag)
+[![Preview](https://shields.io/badge/preview-orange?style=for-the-badge)](https://preview-solid-pages.phi.ag)
 [![Coverage](https://img.shields.io/codecov/c/github/phi-ag/solid-pages?style=for-the-badge)](https://app.codecov.io/github/phi-ag/solid-pages)
 
 Opinionated demo app running [SolidStart](https://start.solidjs.com/) on [Cloudflare Pages](https://pages.cloudflare.com/).
@@ -56,7 +56,7 @@ Alternatively if you want to protect the production deployment copy `JWT_ISSUER`
 
 Follow the official documentation to setup the [GitHub Identity Provider](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/github/) and update [terraform.tfvars](terraform.tfvars).
 
-Add `E2E_CLIENT_ID` and `E2E_CLIENT_SECRET` to your GitHub Action Secrets
+After applying Terraform add `E2E_CLIENT_ID` and `E2E_CLIENT_SECRET` to your GitHub Action Secrets
 
     terraform output -raw e2e_client_id
     terraform output -raw e2e_client_secret
