@@ -20,13 +20,7 @@ export default defineConfig({
   use: {
     baseURL: process.env.BASE_URL ?? "http://localhost:3000",
     trace: "on-first-retry",
-    viewport: { width: 1920, height: 1080 },
-    extraHTTPHeaders: {
-      // @ts-expect-error
-      "CF-Access-Client-Id": process.env.E2E_CLIENT_ID,
-      // @ts-expect-error
-      "CF-Access-Client-Secret": process.env.E2E_CLIENT_SECRET
-    }
+    viewport: { width: 1920, height: 1080 }
   },
   reporter: [
     ["html", { open: "never", outputFolder: "reports/e2e" }],
