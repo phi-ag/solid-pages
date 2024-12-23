@@ -77,6 +77,7 @@ Web Analytics need to be enabled manually in the Cloudflare dashboard in your Pa
     terraform apply
     terraform output -raw web_analytics_token
     pnpm wrangler pages secret put ANALYTICS_TOKEN
+    pnpm wrangler pages secret put ANALYTICS_TOKEN --env preview
 
 ## Development
 

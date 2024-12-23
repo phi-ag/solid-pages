@@ -1,35 +1,44 @@
 import { HttpHeader } from "@solidjs/start";
 import { compact } from "lodash-es";
-import { Component, Show } from "solid-js";
+import { type Component, type JSXElement, Show } from "solid-js";
 import { getRequestEvent } from "solid-js/web";
 
 // SECURITY: seroval requires 'unsafe-eval'
-const scripts = (nonce: string) =>
-  ["script-src", "'self'", "'unsafe-eval'", `'nonce-${nonce}'`].join(" ");
+const scripts = (nonce: string): string =>
+  [
+    "script-src",
+    "'self'",
+    "https://static.cloudflareinsights.com",
+    "'unsafe-eval'",
+    `'nonce-${nonce}'`
+  ].join(" ");
 
 // SECURITY: Safari requires 'unsafe-inline'
-const styles = ["style-src", "'self'", "'unsafe-inline'"].join(" ");
+const styles = "style-src 'self' 'unsafe-inline'";
 
-const frame = ["frame-src", "'self'"].join(" ");
+const frame = "frame-src 'self'";
 
 const frameAncestors = [
   "frame-ancestors",
   import.meta.env.DEV ? "https://*.github.dev" : "'none'"
 ].join(" ");
 
-const fonts = ["font-src", "'self'"].join(" ");
+const fonts = "font-src 'self' data:";
 
-const images = ["img-src", "'self'", "https:", "data:"].join(" ");
+const images = "img-src 'self' https: data: blob:";
 
-const connect = compact(["connect-src", "'self'", import.meta.env.DEV && "data: *"]).join(
-  " "
-);
+const connect = compact([
+  "connect-src",
+  "'self'",
+  "https://cloudflareinsights.com",
+  import.meta.env.DEV && "data: *"
+]).join(" ");
 
-const worker = ["worker-src", "'self'"].join(" ");
+const worker = "worker-src 'self'";
 
-const media = ["media-src", "'self'", "data:"].join(" ");
+const media = "media-src 'self' data:";
 
-const csp = (nonce: string) =>
+const csp = (nonce: string): string =>
   [
     "default-src 'none'",
     "base-uri 'none'",
@@ -52,7 +61,7 @@ const CspHeader: Component = () => {
   return <HttpHeader name="Content-Security-Policy" value={csp(nonce)} />;
 };
 
-const StrictTransportSecurity = () => {
+const StrictTransportSecurity = (): JSXElement => {
   const url = getRequestEvent()?.request?.url;
   const protocol = url ? new URL(url).protocol : undefined;
 
