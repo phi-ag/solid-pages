@@ -70,6 +70,14 @@ Update [terraform.tfvars](terraform.tfvars)
 
 Use the output from `terraform apply` (or `terraform output`) to update [wrangler.toml](wrangler.toml).
 
+### Web Analytics
+
+Web Analytics need to be enabled manually in the Cloudflare dashboard in your Page project -> Metrics.
+
+    terraform apply
+    terraform output -raw web_analytics_token
+    pnpm wrangler pages secret put ANALYTICS_TOKEN
+
 ## Development
 
 Create `.dev.vars` (see [.dev.vars.template](.dev.vars.template))

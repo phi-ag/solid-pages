@@ -12,6 +12,7 @@ export default tseslint.config(
       "src/worker.d.ts",
       "dist/**",
       ".vinxi/**",
+      ".wrangler/**",
       ".output/**",
       "app.config.timestamp_*"
     ]

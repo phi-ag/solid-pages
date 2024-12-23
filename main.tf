@@ -276,3 +276,7 @@ output "e2e_client_secret" {
   value     = cloudflare_zero_trust_access_service_token.e2e.client_secret
   sensitive = true
 }
+
+output "web_analytics_token" {
+  value = cloudflare_pages_project.page.build_config[0].web_analytics_token
+}
