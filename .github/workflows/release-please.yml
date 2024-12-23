@@ -41,3 +41,9 @@ jobs:
           --branch production
           --commit-hash ${GITHUB_SHA}
           --commit-message "[${GITHUB_SHA::7}] ${{ github.event.head_commit.message }}"
+
+      - name: End-to-End
+        if: ${{ steps.release.outputs.release_created }}
+        uses: ./.github/actions/e2e
+        env:
+          BASE_URL: https://solid-pages.phi.ag
