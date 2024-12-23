@@ -7,9 +7,17 @@
 .vinxi/
 .wrangler/
 .output/
+.playwright/
+
 node_modules/
 dist/
+reports/
 public/
+e2e/
 src/
 
 .dev.vars
+junit.xml
+junit.e2e.xml
+
+app.config.timestamp_*

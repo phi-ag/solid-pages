@@ -141,9 +141,8 @@ resource "cloudflare_pages_project" "page" {
   name              = var.pages_project_name
   production_branch = var.pages_production_branch
 
-  build_config {
-    build_caching   = false
-    destination_dir = var.pages_build_output_dir
+  lifecycle {
+    ignore_changes = [build_config]
   }
 }
 
