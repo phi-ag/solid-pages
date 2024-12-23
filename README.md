@@ -40,7 +40,24 @@ Create a API token for GitHub with the following permissions
 
 Copy the token into your GitHub Action Secrets as `CLOUDFLARE_API_TOKEN`.
 
+### Cloudflare Zero Trust
+
+This app uses [Zero Trust](https://developers.cloudflare.com/cloudflare-one/) with a [GitHub Identity Provider](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/github/) to protect the preview deployment.
+
+If you don't want this setup you can remove everything related to Zero Trust, JWT and E2E from [main.tf](main.tf), [wrangler.toml](wrangler.toml), the `user` middleware from [middleware.ts](src/middleware.ts) and related code from `src/lib`.
+
+Alternatively if you want to protect the production deployment copy `JWT_ISSUER`, `JWT_AUDIENCE` and `E2E_CLIENT_ID` to `[env.production.vars]` in your [wrangler.toml](wrangler.toml) and add the production domains to the Zero Trust Application in [main.tf](main.tf).
+
+```patch
+-  self_hosted_domains        = [cloudflare_pages_domain.preview.domain, "*.${cloudflare_pages_project.page.subdomain}"]
++  self_hosted_domains        = [cloudflare_pages_domain.production.domain, cloudflare_pages_domain.preview.domain, cloudflare_pages_project.page.subdomain, "*.${cloudflare_pages_project.page.subdomain}"]
+```
+
+Follow the official documentation to setup the [GitHub Identity Provider](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/github/) and update [terraform.tfvars](terraform.tfvars).
+
 ### Terraform
+
+Update [terraform.tfvars](terraform.tfvars)
 
     terraform login
     terraform init
