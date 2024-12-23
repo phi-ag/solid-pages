@@ -6,7 +6,7 @@ import { sendWebResponse } from "vinxi/http";
 import { type PlatformProxy } from "wrangler";
 
 import { tryGetUser } from "~/lib/jwt";
-import { Log, createLog } from "~/lib/log";
+import { type Log, createLog } from "~/lib/log";
 import { createSentry } from "~/lib/sentry";
 
 type Proxy = PlatformProxy<Env, IncomingRequestCfProperties>;
@@ -42,7 +42,7 @@ const ensurePlatformProxy = async (): Promise<Proxy> => {
   return proxy;
 };
 
-const cloudflare = async (event: FetchEvent) => {
+const cloudflare = async (event: FetchEvent): Promise<void> => {
   if (import.meta.env.DEV) {
     const platformProxy = await ensurePlatformProxy();
     event.locals.cf = platformProxy.cf;
@@ -60,7 +60,7 @@ const cloudflare = async (event: FetchEvent) => {
   }
 };
 
-const redirectToDomain = async (event: FetchEvent) => {
+const redirectToDomain = (event: FetchEvent): Response | undefined => {
   if (import.meta.env.DEV) return;
 
   const domain = event.locals.env.DOMAIN;
@@ -73,7 +73,7 @@ const redirectToDomain = async (event: FetchEvent) => {
   }
 };
 
-const sentry = async (event: FetchEvent) => {
+const sentry = (event: FetchEvent): void => {
   event.locals.sentry = createSentry(event);
   event.locals.log = createLog(event.locals.sentry);
 };
