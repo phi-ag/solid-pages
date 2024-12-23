@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/phi-ag/solid-pages/compare/v1.4.1...v1.5.0) (2024-12-23)
+
+
+### Features
+
+* add drizzle and db migrations ([63a6f64](https://github.com/phi-ag/solid-pages/commit/63a6f647689f57a512037658ed440dd48ad23705))
+
+
+### Miscellaneous Chores
+
+* remove node hash functions ([a29f5b5](https://github.com/phi-ag/solid-pages/commit/a29f5b5f8e1bb2286a1585ddd0584627384413a4))
+
 ## [1.4.1](https://github.com/phi-ag/solid-pages/compare/v1.4.0...v1.4.1) (2024-12-23)
 
 
