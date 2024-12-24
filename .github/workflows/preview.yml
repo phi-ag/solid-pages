@@ -61,6 +61,12 @@ jobs:
           E2E_CLIENT_ID: ${{ secrets.E2E_CLIENT_ID }}
           E2E_CLIENT_SECRET: ${{ secrets.E2E_CLIENT_SECRET }}
 
+      - name: Publish End-to-End report
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./reports/e2e
+
       - name: Codecov test results
         uses: codecov/test-results-action@9739113ad922ea0a9abb4b2c0f8bf6a4aa8ef820 # v1
         with:
