@@ -1,4 +1,4 @@
-drizzle/
+drizzle/meta/
 
 pnpm-lock.yaml
 src/env.d.ts

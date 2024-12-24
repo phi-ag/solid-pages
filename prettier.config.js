@@ -7,7 +7,11 @@ export default {
   tailwindFunctions: ["cva", "cx"],
   tabWidth: 2,
   useTabs: false,
-  plugins: ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
+  plugins: [
+    "prettier-plugin-sql",
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
   importOrder: ["^node:", "<THIRD_PARTY_MODULES>", "^~/", "^\\."],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
