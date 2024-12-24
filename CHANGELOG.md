@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.5.1](https://github.com/phi-ag/solid-pages/compare/v1.5.0...v1.5.1) (2024-12-24)
+
+
+### Documentation
+
+* add e2e report badge ([a65f6f4](https://github.com/phi-ag/solid-pages/commit/a65f6f43f450feae1b56d75eb8161e6b479a9177))
+* nicer warning style ([a72786f](https://github.com/phi-ag/solid-pages/commit/a72786fb718cb939cff138951e04434ab8fdee01))
+
+
+### Miscellaneous Chores
+
+* **deps:** pin peaceiris/actions-gh-pages action to 4f9cc66 ([c4ac8bc](https://github.com/phi-ag/solid-pages/commit/c4ac8bc7f6b1dff8ab93cc68e533b03b50091731))
+* **deps:** update dependency typescript-eslint to v8.18.2 ([7e58ed3](https://github.com/phi-ag/solid-pages/commit/7e58ed3aa2a5b125b6f4f5a99fb645da773c4ef1))
+* format sql ([4c616ef](https://github.com/phi-ag/solid-pages/commit/4c616ef1d05c28f4fb7c39c9a7f593efb4e91f26))
+* sort arrays for random ([c47bac5](https://github.com/phi-ag/solid-pages/commit/c47bac543013774e1d7cec921928ec530eab6d5c))
+* **terraform:** use destinations for zero trust app ([9834ed5](https://github.com/phi-ag/solid-pages/commit/9834ed590048272db5ee374680a4ddebdd5ce03c))
+
+
+### Tests
+
+* add a11y and lighthouse ([4831954](https://github.com/phi-ag/solid-pages/commit/4831954bbe336fced8572669608788f43bf54846))
+* use fast-check for base64 tests ([04a78cd](https://github.com/phi-ag/solid-pages/commit/04a78cdb6b25a0cc645eadd10aa6e85e7275de61))
+
+
+### Continuous Integration
+
+* publish e2e report ([3e0a14e](https://github.com/phi-ag/solid-pages/commit/3e0a14ed1e3470c17e4c79c1b870d0ce2a32903b))
+
 ## [1.5.0](https://github.com/phi-ag/solid-pages/compare/v1.4.1...v1.5.0) (2024-12-23)
 
 
