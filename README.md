@@ -120,8 +120,10 @@ Test
 End-to-End tests
 
     pnpm playwright install chromium
+
     pnpm test:e2e --project=chromium
-    pnpm test:e2e:dev --project=chromium
+    pnpm test:e2e --project=a11y
+    pnpm test:e2e --project=lighthouse
 
 Run format, lint, typecheck and test
 

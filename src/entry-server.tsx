@@ -38,7 +38,7 @@ export default createHandler(
                 </span>
                 <span>Please enable it in your browser settings.</span>
               </noscript>
-              <div class="flex flex-1 overflow-hidden" id="app">
+              <div class="flex flex-1" id="app">
                 {children}
               </div>
               {scripts}

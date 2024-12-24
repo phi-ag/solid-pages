@@ -1,4 +1,4 @@
-import { type Page } from "@playwright/test";
+import test, { type Page } from "@playwright/test";
 
 export const throwOnConsoleError = (page: Page): void => {
   page.on("console", (message) => {
@@ -22,3 +22,10 @@ export const clientCredentials = async (page: Page): Promise<void> => {
     await route.continue({ headers });
   });
 };
+
+/// NOTE: currently forced download, see https://github.com/microsoft/playwright/pull/33267
+export const attachReport = (name: string, path: string): Promise<void> =>
+  test.info().attach(name, {
+    path,
+    contentType: "text/html"
+  });

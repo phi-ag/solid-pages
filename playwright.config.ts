@@ -20,6 +20,7 @@ export default defineConfig({
   use: {
     baseURL: process.env.BASE_URL ?? "http://localhost:3000",
     trace: "on-first-retry",
+    screenshot: "only-on-failure",
     viewport: { width: 1920, height: 1080 }
   },
   reporter: [
@@ -38,6 +39,32 @@ export default defineConfig({
     {
       name: "webkit",
       use: { ...devices["Desktop Safari"] }
+    },
+    {
+      name: "iphone-15",
+      use: { ...devices["iPhone 15"] }
+    },
+    {
+      name: "a11y",
+      testMatch: "e2e/a11y.ts",
+      use: { ...devices["Desktop Chrome"], screenshot: "on" }
+    },
+    {
+      name: "a11y-dark",
+      testMatch: "e2e/a11y.ts",
+      use: { ...devices["Desktop Chrome"], screenshot: "on", colorScheme: "dark" }
+    },
+    {
+      name: "a11y-mobile",
+      testMatch: "e2e/a11y.ts",
+      use: { ...devices["iPhone 15"], screenshot: "on", colorScheme: "dark" }
+    },
+    {
+      name: "lighthouse",
+      testMatch: "e2e/lighthouse.ts",
+      use: {
+        screenshot: "off"
+      }
     }
   ]
 });
