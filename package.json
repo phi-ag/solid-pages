@@ -39,7 +39,7 @@
     "@solidjs/router": "0.15.2",
     "@solidjs/start": "1.0.10",
     "class-variance-authority": "0.7.1",
-    "drizzle-orm": "0.38.2",
+    "drizzle-orm": "0.38.3",
     "lodash-es": "4.17.21",
     "solid-js": "1.9.3",
     "toucan-js": "4.0.0",
