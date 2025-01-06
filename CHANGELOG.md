@@ -1,5 +1,32 @@
 # Changelog
 
+## [1.5.2](https://github.com/phi-ag/solid-pages/compare/v1.5.1...v1.5.2) (2025-01-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency drizzle-orm to v0.38.3 ([905992d](https://github.com/phi-ag/solid-pages/commit/905992dc20a1bb402536697b1d2256c27ec952c3))
+* **deps:** update dependency uuid to v11.0.4 ([0ca6df3](https://github.com/phi-ag/solid-pages/commit/0ca6df3fa9ec795c2f7b081402b621c3670b3574))
+
+
+### Documentation
+
+* use tailwind colors for badges ([60ba4e8](https://github.com/phi-ag/solid-pages/commit/60ba4e83027f53307a082e27f121feaa993378ce))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @trivago/prettier-plugin-sort-imports to v5.2.1 ([18fb1e4](https://github.com/phi-ag/solid-pages/commit/18fb1e4e80fd8afd4eae064b781ad3425ce7a773))
+* **deps:** update dependency better-sqlite3 to v11.7.2 ([e72edbd](https://github.com/phi-ag/solid-pages/commit/e72edbd5944f47cc07b38d79b056dab9e0ca94d2))
+* **deps:** update dependency typescript-eslint to v8.19.0 ([ae0b09e](https://github.com/phi-ag/solid-pages/commit/ae0b09e0028e1887a2720126be19e429d90dd2ca))
+* **deps:** update dependency vite to v6.0.6 ([2e02642](https://github.com/phi-ag/solid-pages/commit/2e026427b8e590850062671c3a5529e938318193))
+* **deps:** update dependency vite to v6.0.7 ([b665004](https://github.com/phi-ag/solid-pages/commit/b66500468c786fd88666daa3101ded1947f37d66))
+* **deps:** update pnpm to v9.15.2 ([5056d38](https://github.com/phi-ag/solid-pages/commit/5056d382ecc015be08fefedd59baf03091306bf9))
+* **deps:** update pnpm to v9.15.3 ([ed0a1b8](https://github.com/phi-ag/solid-pages/commit/ed0a1b8d02396784bbda3e3a3810cc9951ac4bca))
+* **deps:** update terraform cloudflare to v4.49.0 ([091f447](https://github.com/phi-ag/solid-pages/commit/091f447f65e10ca95139d80c637e021c0d288510))
+* **deps:** update terraform cloudflare to v4.49.1 ([4365a78](https://github.com/phi-ag/solid-pages/commit/4365a78a22d97e0d4ed625ca987c9edf471f272f))
+* **sentry:** collect log breadcrumbs and remove log prefix ([b12dfa7](https://github.com/phi-ag/solid-pages/commit/b12dfa79268e1b4886a47952923468a42187645c))
+
 ## [1.5.1](https://github.com/phi-ag/solid-pages/compare/v1.5.0...v1.5.1) (2024-12-24)
 
 
