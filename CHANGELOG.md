@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.5.3](https://github.com/phi-ag/solid-pages/compare/v1.5.2...v1.5.3) (2025-01-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v8.48.0 ([bb1415b](https://github.com/phi-ag/solid-pages/commit/bb1415b1f1640f573cc26bef74c252802653a268))
+* **deps:** update dependency @solidjs/start to v1.0.11 ([64c01fd](https://github.com/phi-ag/solid-pages/commit/64c01fd94c80ad57b522a569e6136d4de8e56f94))
+* **deps:** update dependency solid-js to v1.9.4 ([0c5a85c](https://github.com/phi-ag/solid-pages/commit/0c5a85c65dcb5e7582bc99fb7c78edd90f481f3f))
+* **deps:** update dependency uuid to v11.0.5 ([2feb9c7](https://github.com/phi-ag/solid-pages/commit/2feb9c7ed27712d37cf1d66e3bbb3764831db186))
+
+
+### Miscellaneous Chores
+
+* **deps:** update codecov/test-results-action digest to 4e79e65 ([2e8cc4a](https://github.com/phi-ag/solid-pages/commit/2e8cc4a36eab2528e0e484b593ca1380f3c479f9))
+* **deps:** update dependency postcss to v8.5.0 ([ad4a7bb](https://github.com/phi-ag/solid-pages/commit/ad4a7bbf5562d3f84ca6ce52a1d6ee619f74f05d))
+* **deps:** update dependency typescript to v5.7.3 ([518f9a9](https://github.com/phi-ag/solid-pages/commit/518f9a95a9ca0c5be72bf71db0802dad7f92bf74))
+* **deps:** update dependency typescript-eslint to v8.19.1 ([e7f25dd](https://github.com/phi-ag/solid-pages/commit/e7f25dde3ff937f95243bd967a5d23377439c146))
+* **deps:** update dependency typescript-eslint to v8.20.0 ([8839047](https://github.com/phi-ag/solid-pages/commit/883904723ea61debcbf46d310066ebf4553290b1))
+* **deps:** update dependency wrangler to v3.100.0 ([f93e13d](https://github.com/phi-ag/solid-pages/commit/f93e13d3b9cc07c00babce3223846b78d1720616))
+* **deps:** update dependency wrangler to v3.101.0 ([d409171](https://github.com/phi-ag/solid-pages/commit/d409171cbda6c855ae97d0b0d4d862915eeea69a))
+* **deps:** update eslint monorepo to v9.18.0 ([f1bda46](https://github.com/phi-ag/solid-pages/commit/f1bda467d2ad7843e5e271d7e9943fd63374373a))
+* **deps:** update node.js to v23.6.0 ([d07df90](https://github.com/phi-ag/solid-pages/commit/d07df90cc528057a5bf94c1a6fcf0af2cd6c344d))
+* **deps:** update pnpm to v9.15.4 ([ab73f4d](https://github.com/phi-ag/solid-pages/commit/ab73f4dcd565e326d3d07ecebadb5af16e663f66))
+* **deps:** update terraform cloudflare to v4.50.0 ([07a0157](https://github.com/phi-ag/solid-pages/commit/07a0157334cb0820b8317494dfb8b10a6a7fa003))
+
 ## [1.5.2](https://github.com/phi-ag/solid-pages/compare/v1.5.1...v1.5.2) (2025-01-06)
 
 
