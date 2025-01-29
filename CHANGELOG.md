@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.5.5](https://github.com/phi-ag/solid-pages/compare/v1.5.4...v1.5.5) (2025-01-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v8.52.0 ([3e52eb4](https://github.com/phi-ag/solid-pages/commit/3e52eb40e138c6425488934e894346f0f7b6e097))
+* **deps:** update drizzle ([68addea](https://github.com/phi-ag/solid-pages/commit/68addeaf4f53a05dc77bdc484fa0f5fd7eec3b18))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/setup-node digest to 1d0ff46 ([9942859](https://github.com/phi-ag/solid-pages/commit/9942859788469879ae3266cf1c511b06c7651c08))
+* **deps:** update dependency @trivago/prettier-plugin-sort-imports to v5.2.2 ([bd9c119](https://github.com/phi-ag/solid-pages/commit/bd9c1193b264fd4599a9bcd5830c5fc4e0628c35))
+* **deps:** update dependency typescript-eslint to v8.22.0 ([5b86d2c](https://github.com/phi-ag/solid-pages/commit/5b86d2ce9ac4666583fee00fd0b88be5e9f5a68a))
+* **deps:** update dependency wrangler to v3.106.0 ([eb4ef7b](https://github.com/phi-ag/solid-pages/commit/eb4ef7bc656effc72fc2aa551e17447f8531680e))
+* **deps:** update eslint monorepo to v9.19.0 ([12bfce2](https://github.com/phi-ag/solid-pages/commit/12bfce20c4aed79725248422bae755f9de336baa))
+* **deps:** update tailwind to v4 ([718d3f9](https://github.com/phi-ag/solid-pages/commit/718d3f9032dba55e64a384911b8cfecca0253cba))
+
 ## [1.5.4](https://github.com/phi-ag/solid-pages/compare/v1.5.3...v1.5.4) (2025-01-25)
 
 
