@@ -4362,6 +4362,9 @@ packages:
   third-party-web@0.26.3:
     resolution: {integrity: sha512-iXh4wFZdR6JaC67UTAaslS/x7WPw2KsVd2IX3/ujvnx+e/+kByau8Ap5JYzDQH8+HIXPDv+Uc1KvisuUSlfggg==}
 
+  third-party-web@0.26.4:
+    resolution: {integrity: sha512-cH8Y2deNWtUan3u7DM8Z9aPIMll3ATwFBpuYFo7IXfz58X/hwz3Re+nUEpu6stViCeDvgkuR7RjeyNr495cULA==}
+
   through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
 
@@ -5609,7 +5612,7 @@ snapshots:
 
   '@paulirish/trace_engine@0.0.39':
     dependencies:
-      third-party-web: 0.26.3
+      third-party-web: 0.26.4
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
@@ -9019,6 +9022,8 @@ snapshots:
       b4a: 1.6.7
 
   third-party-web@0.26.3: {}
+
+  third-party-web@0.26.4: {}
 
   through@2.3.8: {}
 
