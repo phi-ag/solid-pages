@@ -276,5 +276,5 @@ output "e2e_client_secret" {
 }
 
 output "web_analytics_token" {
-  value = cloudflare_pages_project.page.build_config[0].web_analytics_token
+  value = length(cloudflare_pages_project.page.build_config) == 0 ? "" : cloudflare_pages_project.page.build_config[0].web_analytics_token
 }
