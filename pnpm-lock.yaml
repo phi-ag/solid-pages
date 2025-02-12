@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@sentry/core':
-        specifier: 8.54.0
-        version: 8.54.0
+        specifier: 9.0.1
+        version: 9.0.1
       '@solidjs/router':
         specifier: 0.15.3
         version: 0.15.3(solid-js@1.9.4)
@@ -1548,13 +1548,13 @@ packages:
     resolution: {integrity: sha512-eurLBFQJC7WWWYoEna25Z9I/GJjqAmH339tv52XP8sqXV7B5hRcHDcfrsT/UGHpU316M24p3lWhj0eimtCZ0SQ==}
     engines: {node: '>=8'}
 
-  '@sentry/core@8.54.0':
-    resolution: {integrity: sha512-03bWf+D1j28unOocY/5FDB6bUHtYlm6m6ollVejhg45ZmK9iPjdtxNWbrLsjT1WRym0Tjzowu+A3p+eebYEv0Q==}
-    engines: {node: '>=14.18'}
-
   '@sentry/core@8.9.2':
     resolution: {integrity: sha512-ixm8NISFlPlEo3FjSaqmq4nnd13BRHoafwJ5MG+okCz6BKGZ1SexEggP42/QpGvDprUUHnfncG6WUMgcarr1zA==}
     engines: {node: '>=14.18'}
+
+  '@sentry/core@9.0.1':
+    resolution: {integrity: sha512-RQ3B3NfF+BdmQz1c+vj4OBO+kxvxSsYMcmCDxSEZ7YrS/6Er1kMy0fwfxmdZJMdM1LlzXmO0XWF2g1IO9CzKyQ==}
+    engines: {node: '>=18'}
 
   '@sentry/integrations@7.120.2':
     resolution: {integrity: sha512-bMvL2fD3TGLM5YAUoQ2Qz6bYeVU8f7YRFNSjKNxK4EbvFgAU9j1FD6EKg0V0RNOJYnJjGIZYMmcWTXBbVTJL6w==}
@@ -5999,12 +5999,12 @@ snapshots:
       '@sentry/types': 7.120.2
       '@sentry/utils': 7.120.2
 
-  '@sentry/core@8.54.0': {}
-
   '@sentry/core@8.9.2':
     dependencies:
       '@sentry/types': 8.9.2
       '@sentry/utils': 8.9.2
+
+  '@sentry/core@9.0.1': {}
 
   '@sentry/integrations@7.120.2':
     dependencies:
