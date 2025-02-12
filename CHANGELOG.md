@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.5.7](https://github.com/phi-ag/solid-pages/compare/v1.5.6...v1.5.7) (2025-02-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v9 ([21bc4dc](https://github.com/phi-ag/solid-pages/commit/21bc4dc3877db67d48102549bce8809e8c562c98))
+* **deps:** update dependency @solidjs/start to v1.1.0 ([6b57092](https://github.com/phi-ag/solid-pages/commit/6b570922f43b969b03df7a50d30d40c861c33b36))
+* **deps:** update dependency drizzle-orm to v0.39.3 ([d57e950](https://github.com/phi-ag/solid-pages/commit/d57e9506961e99b5bd3a50b067da48428c88af67))
+* **deps:** update dependency zod to v3.24.2 ([ba855d7](https://github.com/phi-ag/solid-pages/commit/ba855d7facce5388063c323b8e0aa6dc1dceb80e))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency eslint to v9.20.1 ([7a4ed7c](https://github.com/phi-ag/solid-pages/commit/7a4ed7c16f63bc7439cd62d5bb29eaa21e538162))
+* **deps:** update dependency typescript-eslint to v8.24.0 ([0c372ab](https://github.com/phi-ag/solid-pages/commit/0c372abab783301065eadc4f3a93917612ac9181))
+* **deps:** update dependency wrangler to v3.108.0 ([53c7748](https://github.com/phi-ag/solid-pages/commit/53c774880721f4cdc8c2c6cff2318d3e03aa019c))
+* **deps:** update dependency wrangler to v3.108.1 ([f166bfc](https://github.com/phi-ag/solid-pages/commit/f166bfcaac246c5037798842401504ba3d2db0e0))
+* **deps:** update pnpm to v10.3.0 ([4d3a327](https://github.com/phi-ag/solid-pages/commit/4d3a3270420fd5b2e6f08e164869e3ce6f78f1b8))
+* **deps:** update tailwindcss monorepo to v4.0.6 ([58c9a35](https://github.com/phi-ag/solid-pages/commit/58c9a3508aec6f3622555c670af8fc1d3dcc63e2))
+
 ## [1.5.6](https://github.com/phi-ag/solid-pages/compare/v1.5.5...v1.5.6) (2025-02-10)
 
 
