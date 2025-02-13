@@ -37,7 +37,7 @@
   "dependencies": {
     "@sentry/core": "9.0.1",
     "@solidjs/router": "0.15.3",
-    "@solidjs/start": "1.1.0",
+    "@solidjs/start": "1.1.1",
     "class-variance-authority": "0.7.1",
     "drizzle-orm": "0.39.3",
     "lodash-es": "4.17.21",
