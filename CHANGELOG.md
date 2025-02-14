@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.9](https://github.com/phi-ag/solid-pages/compare/v1.5.8...v1.5.9) (2025-02-14)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency wrangler to v3.109.1 ([5fe5942](https://github.com/phi-ag/solid-pages/commit/5fe5942bea89694ef44191909151abb15bec30c2))
+
 ## [1.5.8](https://github.com/phi-ag/solid-pages/compare/v1.5.7...v1.5.8) (2025-02-14)
 
 
