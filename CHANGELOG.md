@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.5.8](https://github.com/phi-ag/solid-pages/compare/v1.5.7...v1.5.8) (2025-02-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v9.1.0 ([18b17b2](https://github.com/phi-ag/solid-pages/commit/18b17b2f489df9ab8b7bf262c09f4559baf19b57))
+* **deps:** update dependency @solidjs/start to v1.1.1 ([32101a1](https://github.com/phi-ag/solid-pages/commit/32101a11d92ad666dea52440d9013e3fc42f2ce1))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency globals to v15.15.0 ([82bbf33](https://github.com/phi-ag/solid-pages/commit/82bbf33e3225d61f3da73daec344cdf48296b2aa))
+* **deps:** update dependency prettier to v3.5.1 ([368bd2d](https://github.com/phi-ag/solid-pages/commit/368bd2d64f8a2935924f4de332c318877fa314c0))
+* **deps:** update dependency wrangler to v3.109.0 ([7d8c250](https://github.com/phi-ag/solid-pages/commit/7d8c2507533b22afce251c2a46c71ba440575b62))
+* **deps:** update node.js to v23.8.0 ([6d7c27f](https://github.com/phi-ag/solid-pages/commit/6d7c27f4cf3755be0a2d6eb08b7ea80cd67a0b5c))
+* **deps:** update pnpm to v10.4.0 ([be2e1b6](https://github.com/phi-ag/solid-pages/commit/be2e1b6e83268f6e337d7460a45a01a51cc93b04))
+
 ## [1.5.7](https://github.com/phi-ag/solid-pages/compare/v1.5.6...v1.5.7) (2025-02-12)
 
 
