@@ -177,8 +177,7 @@ export const verifiedPayload = async (event: FetchEvent): Promise<Payload> => {
 };
 
 export const getUser = async (event: FetchEvent): Promise<string | undefined> => {
-  const url = new URL(event.request.url);
-  if (import.meta.env.DEV || url.hostname === "localhost") return "local@example.com";
+  if (import.meta.env.DEV || event.locals.env.LOCAL) return "local@example.com";
 
   const payload = await verifiedPayload(event);
   if (payload.email) return payload.email;

@@ -14,7 +14,8 @@ export default tseslint.config(
       ".vinxi/**",
       ".wrangler/**",
       ".output/**",
-      "app.config.timestamp_*"
+      "app.config.timestamp_*",
+      "src/worker.d.ts"
     ]
   },
   eslint.configs.recommended,
