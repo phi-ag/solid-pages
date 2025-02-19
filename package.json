@@ -43,7 +43,7 @@
     "lodash-es": "4.17.21",
     "solid-js": "1.9.4",
     "toucan-js": "4.1.0",
-    "uuid": "11.0.5",
+    "uuid": "11.1.0",
     "zod": "3.24.2"
   },
   "devDependencies": {
