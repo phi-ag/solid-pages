@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.5.10](https://github.com/phi-ag/solid-pages/compare/v1.5.9...v1.5.10) (2025-02-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency uuid to v11.1.0 ([cf077b5](https://github.com/phi-ag/solid-pages/commit/cf077b5e9c8d7d84ccee3b7af2829a0041a63d50))
+
+
+### Miscellaneous Chores
+
+* approve workerd and better-sqlite3 postinstall ([f75ccd0](https://github.com/phi-ag/solid-pages/commit/f75ccd04b0cdbd9f48e652c6ec8db88f4944c8b3))
+* **deps:** update actions/cache digest to 0c907a7 ([299c924](https://github.com/phi-ag/solid-pages/commit/299c92475c9c254f97d70eb39980fcad2d4c3937))
+* **deps:** update codecov/test-results-action digest to 5c441a7 ([df3a8ad](https://github.com/phi-ag/solid-pages/commit/df3a8ad6648aa9c03a3bbc27dce6da078be48ec3))
+* **deps:** update dependency typescript-eslint to v8.24.1 ([f50cf29](https://github.com/phi-ag/solid-pages/commit/f50cf296424720550c0a11005b01528ac9288b11))
+* **deps:** update dependency vite to v6.1.1 ([e9ffcd6](https://github.com/phi-ag/solid-pages/commit/e9ffcd673438f02072b9c5cef4571a039dc13dbf))
+* **deps:** update dependency vite-plugin-solid to v2.11.2 ([39ab4e5](https://github.com/phi-ag/solid-pages/commit/39ab4e55bb36a92bba4cfcc3af63ae0b91af8cb6))
+* **deps:** update dependency wrangler to v3.109.2 ([6221304](https://github.com/phi-ag/solid-pages/commit/6221304954665499169a779d91f0f890a1ef50f7))
+* **deps:** update pnpm to v10.4.1 ([0ac9b7c](https://github.com/phi-ag/solid-pages/commit/0ac9b7cc4bc1cc2ae83ff54d059251c542bf40d4))
+* **deps:** update tailwindcss monorepo to v4.0.7 ([a02e438](https://github.com/phi-ag/solid-pages/commit/a02e438e3c475915aa9ea3fa4a04fdc3b31d0b1d))
+* **deps:** update vitest monorepo to v3.0.6 ([46976a6](https://github.com/phi-ag/solid-pages/commit/46976a667d68a0483dde51dd36664d5151ea151a))
+
 ## [1.5.9](https://github.com/phi-ag/solid-pages/compare/v1.5.8...v1.5.9) (2025-02-16)
 
 
