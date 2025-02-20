@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.11](https://github.com/phi-ag/solid-pages/compare/v1.5.10...v1.5.11) (2025-02-20)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency globals to v16 ([4b12d6f](https://github.com/phi-ag/solid-pages/commit/4b12d6fb46a97bd4568cdf820466557c8bff2609))
+
 ## [1.5.10](https://github.com/phi-ag/solid-pages/compare/v1.5.9...v1.5.10) (2025-02-20)
 
 
