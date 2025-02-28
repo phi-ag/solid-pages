@@ -33,8 +33,8 @@ importers:
         specifier: 1.9.5
         version: 1.9.5
       toucan-js:
-        specifier: 4.1.0
-        version: 4.1.0
+        specifier: 4.1.1
+        version: 4.1.1
       uuid:
         specifier: 11.1.0
         version: 11.1.0
@@ -4822,8 +4822,8 @@ packages:
     resolution: {integrity: sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==}
     engines: {node: '>=0.6'}
 
-  toucan-js@4.1.0:
-    resolution: {integrity: sha512-KaD6yfjFuOiFfKccvJ95EICwxus+g2mfPUHyxfPCq7yzsEg5Qi2wpym0cxsZI7oS4t3S7/HwL1v+2TW5/pGAUA==}
+  toucan-js@4.1.1:
+    resolution: {integrity: sha512-GTPwEaCRN8IbYe5/VeGiwxYvMO0dKaC16fTeLbF+QGswjkLZ9JUqAfDhLMyH2SWukYhmetH+uxWa1Bhluv/evQ==}
 
   tr46@0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
@@ -9947,7 +9947,7 @@ snapshots:
 
   toidentifier@1.0.1: {}
 
-  toucan-js@4.1.0:
+  toucan-js@4.1.1:
     dependencies:
       '@sentry/core': 8.9.2
       '@sentry/types': 8.9.2
