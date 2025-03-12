@@ -27,9 +27,13 @@ const getData = query(async () => {
   const r2 = await env.R2.get(r2Key);
 
   const db = event.locals.db;
-  await db.insert(visitor).values({ name: randomName() });
-  await db.run(sql`DELETE FROM visitor ORDER BY id DESC LIMIT -1 OFFSET 5`);
-  const visitors = await db.query.visitor.findMany();
+  const batch = await db.batch([
+    db.insert(visitor).values({ name: randomName() }),
+    db.run(sql`DELETE FROM visitor ORDER BY id DESC LIMIT -1 OFFSET 5`),
+    db.query.visitor.findMany()
+  ]);
+
+  const visitors = batch[2];
 
   const cache = await event.locals.caches.default.match("https://example.com");
 
