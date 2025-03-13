@@ -21,7 +21,7 @@
     "test:coverage": "vitest --run --coverage",
     "test:e2e": "playwright test",
     "test:e2e:dev": "PWTEST_WATCH=1 playwright test",
-    "typegen": "wrangler types --experimental-include-runtime=src/worker.d.ts src/env.d.ts",
+    "typegen": "wrangler types src/worker-configuration.d.ts",
     "deploy": "wrangler pages deploy --branch main",
     "deploy:production": "wrangler pages deploy --branch production",
     "tail": "wrangler pages deployment tail --project-name solid-pages --environment preview",
@@ -55,6 +55,7 @@
     "@trivago/prettier-plugin-sort-imports": "5.2.2",
     "@types/eslint-plugin-jsx-a11y": "6.10.0",
     "@types/lodash-es": "4.17.12",
+    "@types/node": "22.13.10",
     "@vitest/coverage-v8": "3.0.8",
     "axe-core": "4.10.3",
     "axe-html-reporter": "2.2.11",
@@ -77,7 +78,7 @@
     "vite": "6.2.1",
     "vite-plugin-solid": "2.11.6",
     "vitest": "3.0.8",
-    "wrangler": "3.114.1"
+    "wrangler": "4.0.0"
   },
   "pnpm": {
     "overrides": {

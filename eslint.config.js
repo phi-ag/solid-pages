@@ -15,7 +15,7 @@ export default tseslint.config(
       ".wrangler/**",
       ".output/**",
       "app.config.timestamp_*",
-      "src/worker.d.ts"
+      "src/worker-configuration.d.ts"
     ]
   },
   eslint.configs.recommended,
