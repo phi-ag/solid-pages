@@ -1,5 +1,4 @@
 drizzle/meta/
 
 pnpm-lock.yaml
-src/env.d.ts
-src/worker.d.ts
+src/worker-configuration.d.ts
