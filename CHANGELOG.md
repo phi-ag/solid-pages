@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.13](https://github.com/phi-ag/solid-pages/compare/v1.5.12...v1.5.13) (2025-03-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update codecov/test-results-action digest to f2dba72 ([baff27b](https://github.com/phi-ag/solid-pages/commit/baff27b1daac7f0f95b25cb2e3df6ea6c0c2b299))
+* **deps:** update dependency wrangler to v3.114.1 ([46a6605](https://github.com/phi-ag/solid-pages/commit/46a66051e547f89e8f0b2d2b7001c81c0095589f))
+* **deps:** update dependency wrangler to v4 ([c47f44b](https://github.com/phi-ag/solid-pages/commit/c47f44b22ac394463687a3864def1a9f4f2de32f))
+* **deps:** update tailwindcss monorepo to v4.0.13 ([4670e82](https://github.com/phi-ag/solid-pages/commit/4670e82f9f7909e0d3b3ecd91efb995dab94dd7c))
+* **deps:** update tailwindcss monorepo to v4.0.14 ([132f124](https://github.com/phi-ag/solid-pages/commit/132f1244bf718ba0944205eaf31e3f31d2461c55))
+* use batch api for d1 ([dc017ea](https://github.com/phi-ag/solid-pages/commit/dc017ea2679330c7d6504a9c9c8ccffd5057c936))
+
 ## [1.5.12](https://github.com/phi-ag/solid-pages/compare/v1.5.11...v1.5.12) (2025-03-11)
 
 
