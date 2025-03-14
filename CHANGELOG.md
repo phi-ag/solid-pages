@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.5.14](https://github.com/phi-ag/solid-pages/compare/v1.5.13...v1.5.14) (2025-03-14)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency better-sqlite3 to v11.9.0 ([7c806ef](https://github.com/phi-ag/solid-pages/commit/7c806effa0b9f7853571fad219a6b4f032b9969d))
+* **deps:** update dependency vite to v6.2.2 ([fe06400](https://github.com/phi-ag/solid-pages/commit/fe064007bea72874f309e5e70de178f245904c0c))
+* **deps:** update node.js to v23.10.0 ([a057dc1](https://github.com/phi-ag/solid-pages/commit/a057dc12131f9f4ed5da42f31c51dcd2caf828ef))
+* **deps:** update pnpm to v10.6.3 ([52194f5](https://github.com/phi-ag/solid-pages/commit/52194f5e3d0452695a0e397185ba9ce4a5673e89))
+
 ## [1.5.13](https://github.com/phi-ag/solid-pages/compare/v1.5.12...v1.5.13) (2025-03-13)
 
 
