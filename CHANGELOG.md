@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.15](https://github.com/phi-ag/solid-pages/compare/v1.5.14...v1.5.15) (2025-03-22)
+
+
+### Miscellaneous Chores
+
+* **deps:** update eslint monorepo to v9.23.0 ([70e278f](https://github.com/phi-ag/solid-pages/commit/70e278f5a431b6dfaee8f0ca99ac26740e0ea6aa))
+
 ## [1.5.14](https://github.com/phi-ag/solid-pages/compare/v1.5.13...v1.5.14) (2025-03-21)
 
 
