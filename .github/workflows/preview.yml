@@ -61,11 +61,10 @@ jobs:
           E2E_CLIENT_ID: ${{ secrets.E2E_CLIENT_ID }}
           E2E_CLIENT_SECRET: ${{ secrets.E2E_CLIENT_SECRET }}
 
-      - name: Publish End-to-End report
-        uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4
+      - name: Upload End-to-End report
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./reports/e2e
+          path: reports/e2e
 
       - name: Codecov test results
         uses: codecov/test-results-action@f2dba722c67b86c6caa034178c6e4d35335f6706 # v1
@@ -78,3 +77,17 @@ jobs:
         with:
           files: ./reports/coverage/cobertura-coverage.xml
           token: ${{ secrets.CODECOV_TOKEN }}
+
+  deploy:
+    runs-on: ubuntu-24.04
+    needs: preview
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy End-to-End report
+        id: deployment
+        uses: actions/deploy-pages@v4
