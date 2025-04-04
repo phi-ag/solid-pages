@@ -62,7 +62,7 @@ jobs:
           E2E_CLIENT_SECRET: ${{ secrets.E2E_CLIENT_SECRET }}
 
       - name: Upload End-to-End report
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
           path: reports/e2e
 
@@ -90,4 +90,4 @@ jobs:
     steps:
       - name: Deploy End-to-End report
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
