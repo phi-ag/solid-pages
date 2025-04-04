@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.5.16](https://github.com/phi-ag/solid-pages/compare/v1.5.15...v1.5.16) (2025-04-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v9.11.0 ([b49d8e5](https://github.com/phi-ag/solid-pages/commit/b49d8e5c08d465878ea2be0e395cbf7f836b1154))
+
+
+### Miscellaneous Chores
+
+* **deps:** pin dependencies ([1beb35a](https://github.com/phi-ag/solid-pages/commit/1beb35ac2525941ec05e72a021e50b2b634e914a))
+* **deps:** update dependency @types/node to v22.14.0 ([7ecb088](https://github.com/phi-ag/solid-pages/commit/7ecb088977750587df990328ff15a9c55279a362))
+* **deps:** update dependency vite to v6.2.5 ([3f4ab5f](https://github.com/phi-ag/solid-pages/commit/3f4ab5f5c51e9d573a4f98ca1dba7c59f58fe0a7))
+* **deps:** update dependency wrangler to v4.7.0 ([f34f7dd](https://github.com/phi-ag/solid-pages/commit/f34f7dda96bfc1be717243d4822669fe64da5c9e))
+* **deps:** update dependency wrangler to v4.7.1 ([28f2c60](https://github.com/phi-ag/solid-pages/commit/28f2c6093fa8ed3b2355afc7dc8e7837c4daa4b8))
+* **deps:** update tailwindcss monorepo to v4.1.1 ([1cf2482](https://github.com/phi-ag/solid-pages/commit/1cf2482e2c59266d9eb8ee82753f074d33e1bfc4))
+* **deps:** update tailwindcss monorepo to v4.1.2 ([93d55c2](https://github.com/phi-ag/solid-pages/commit/93d55c23d7a3e0572201113cb8aea88ab83207fa))
+* update license year ([b1dffe5](https://github.com/phi-ag/solid-pages/commit/b1dffe5784171f24805bd4f948c104d4fc42efe9))
+
+
+### Continuous Integration
+
+* deploy e2e report with action ([612dba7](https://github.com/phi-ag/solid-pages/commit/612dba77078cc7e5f03422560cccf0bf088a2ee6))
+
 ## [1.5.15](https://github.com/phi-ag/solid-pages/compare/v1.5.14...v1.5.15) (2025-04-02)
 
 
