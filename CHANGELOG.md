@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.5.17](https://github.com/phi-ag/solid-pages/compare/v1.5.16...v1.5.17) (2025-04-05)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency typescript to v5.8.3 ([24770c9](https://github.com/phi-ag/solid-pages/commit/24770c9e89ca7ca80a46bad994c237cf5539b878))
+* **deps:** update dependency wrangler to v4.7.2 ([fe64c1b](https://github.com/phi-ag/solid-pages/commit/fe64c1b4f1f05d1edee0c2dc59dc9857e78449d0))
+* **deps:** update eslint monorepo to v9.24.0 ([713d9b7](https://github.com/phi-ag/solid-pages/commit/713d9b7480322cacf3f7693b1d5a5c32d306af1a))
+* **deps:** update tailwindcss monorepo to v4.1.3 ([6dba3f7](https://github.com/phi-ag/solid-pages/commit/6dba3f7c5841f7be8126a9ad1f31d3b4c3c5254e))
+
 ## [1.5.16](https://github.com/phi-ag/solid-pages/compare/v1.5.15...v1.5.16) (2025-04-04)
 
 
