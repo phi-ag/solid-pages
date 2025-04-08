@@ -35,7 +35,8 @@
         "vinxi",
         "class-variance-authority",
         "eslint-plugin-solid",
-        "prettier-plugin-tailwindcss"
+        "prettier-plugin-tailwindcss",
+        "prettier-plugin-sql"
       ],
       "automerge": true
     },
