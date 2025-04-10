@@ -1,5 +1,35 @@
 # Changelog
 
+## [1.5.17](https://github.com/phi-ag/solid-pages/compare/v1.5.16...v1.5.17) (2025-04-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v9.12.0 ([ab878a8](https://github.com/phi-ag/solid-pages/commit/ab878a8cfc535a1ebf566b42c5ebb10c689a5d6b))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency fast-check to v4.1.0 ([c615b0f](https://github.com/phi-ag/solid-pages/commit/c615b0f6c88abec30ddb5560f7e069492205807c))
+* **deps:** update dependency fast-check to v4.1.1 ([5c0f2ae](https://github.com/phi-ag/solid-pages/commit/5c0f2aed01cb0989390df6f5d92e34e90b813e06))
+* **deps:** update dependency prettier-plugin-sql to v0.19.0 ([7d7b229](https://github.com/phi-ag/solid-pages/commit/7d7b22902f9d1ce72b93c8b7f002a1a99e96057f))
+* **deps:** update dependency typescript to v5.8.3 ([24770c9](https://github.com/phi-ag/solid-pages/commit/24770c9e89ca7ca80a46bad994c237cf5539b878))
+* **deps:** update dependency typescript-eslint to v8.29.1 ([09a63a5](https://github.com/phi-ag/solid-pages/commit/09a63a5dfeb319863c950a708ff11da7d0a46c00))
+* **deps:** update dependency vinxi to v0.5.4 ([7b6e9a9](https://github.com/phi-ag/solid-pages/commit/7b6e9a9aedbdfcbe04cc4ccdd9f5288233c011d4))
+* **deps:** update dependency vite to v6.2.6 ([bfe94a9](https://github.com/phi-ag/solid-pages/commit/bfe94a9213898fc6f83cc01a7e8e55cbe2ffc6dd))
+* **deps:** update dependency wrangler to v4.10.0 ([850272c](https://github.com/phi-ag/solid-pages/commit/850272c343534a96293763dca3c6f60e77aea318))
+* **deps:** update dependency wrangler to v4.7.2 ([fe64c1b](https://github.com/phi-ag/solid-pages/commit/fe64c1b4f1f05d1edee0c2dc59dc9857e78449d0))
+* **deps:** update dependency wrangler to v4.8.0 ([17c45e0](https://github.com/phi-ag/solid-pages/commit/17c45e0b407d89e1e9134ca7e53675457a1b0d46))
+* **deps:** update dependency wrangler to v4.9.1 ([92ec270](https://github.com/phi-ag/solid-pages/commit/92ec2708eadc55ef69a506b7ede00d8e0165e252))
+* **deps:** update eslint monorepo to v9.24.0 ([713d9b7](https://github.com/phi-ag/solid-pages/commit/713d9b7480322cacf3f7693b1d5a5c32d306af1a))
+* **deps:** update pnpm to v10.8.0 ([4a072af](https://github.com/phi-ag/solid-pages/commit/4a072afa988407d7e4c7144905efc383afe4d2b7))
+* **deps:** update tailwindcss monorepo to v4.1.3 ([6dba3f7](https://github.com/phi-ag/solid-pages/commit/6dba3f7c5841f7be8126a9ad1f31d3b4c3c5254e))
+
+
+### Continuous Integration
+
+* **renovate:** enable automerge for prettier-plugin-sql ([1c2158d](https://github.com/phi-ag/solid-pages/commit/1c2158db21148ea643fda39f45fbe6f4da8d14de))
+
 ## [1.5.16](https://github.com/phi-ag/solid-pages/compare/v1.5.15...v1.5.16) (2025-04-04)
 
 
