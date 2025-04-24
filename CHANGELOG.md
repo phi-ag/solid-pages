@@ -1,5 +1,62 @@
 # Changelog
 
+## [1.5.17](https://github.com/phi-ag/solid-pages/compare/v1.5.16...v1.5.17) (2025-04-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v9.12.0 ([ab878a8](https://github.com/phi-ag/solid-pages/commit/ab878a8cfc535a1ebf566b42c5ebb10c689a5d6b))
+* **deps:** update dependency @sentry/core to v9.13.0 ([5dfda71](https://github.com/phi-ag/solid-pages/commit/5dfda7123d7c7348e10b8a682a28017fe7fdd18c))
+* **deps:** update dependency @sentry/core to v9.14.0 ([c3c377b](https://github.com/phi-ag/solid-pages/commit/c3c377b77bc2f56932b51ac4761adda846c7b3e8))
+* **deps:** update dependency drizzle-orm to v0.43.0 ([72de702](https://github.com/phi-ag/solid-pages/commit/72de702dc01725b4f5a72a1f090a8fed622355db))
+* **deps:** update dependency zod to v3.24.3 ([9078073](https://github.com/phi-ag/solid-pages/commit/90780738d7476125aa525096746bd64d8bc9139a))
+* **deps:** update drizzle ([fa4ec0c](https://github.com/phi-ag/solid-pages/commit/fa4ec0cc5c14d036b8727f877e448afb5ff484eb))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/setup-node digest to 49933ea ([a0d6dcf](https://github.com/phi-ag/solid-pages/commit/a0d6dcf937223545fd067dc689d367ab9f14bafb))
+* **deps:** update codecov/codecov-action digest to ad3126e ([375c583](https://github.com/phi-ag/solid-pages/commit/375c583076569153c81da17840c4535d79b72c9b))
+* **deps:** update dependency @types/node to v22.14.1 ([0595ce9](https://github.com/phi-ag/solid-pages/commit/0595ce9586034af0939e6853a88ce42eab4e1fea))
+* **deps:** update dependency fast-check to v4.1.0 ([c615b0f](https://github.com/phi-ag/solid-pages/commit/c615b0f6c88abec30ddb5560f7e069492205807c))
+* **deps:** update dependency fast-check to v4.1.1 ([5c0f2ae](https://github.com/phi-ag/solid-pages/commit/5c0f2aed01cb0989390df6f5d92e34e90b813e06))
+* **deps:** update dependency prettier-plugin-sql to v0.19.0 ([7d7b229](https://github.com/phi-ag/solid-pages/commit/7d7b22902f9d1ce72b93c8b7f002a1a99e96057f))
+* **deps:** update dependency typescript to v5.8.3 ([24770c9](https://github.com/phi-ag/solid-pages/commit/24770c9e89ca7ca80a46bad994c237cf5539b878))
+* **deps:** update dependency typescript-eslint to v8.29.1 ([09a63a5](https://github.com/phi-ag/solid-pages/commit/09a63a5dfeb319863c950a708ff11da7d0a46c00))
+* **deps:** update dependency typescript-eslint to v8.30.1 ([15d6610](https://github.com/phi-ag/solid-pages/commit/15d66107043904c4f5023f2e0b2e35db8390ff3b))
+* **deps:** update dependency typescript-eslint to v8.31.0 ([bcc3043](https://github.com/phi-ag/solid-pages/commit/bcc304379032d2bbeba0546f02fac46947ceb447))
+* **deps:** update dependency vinxi to v0.5.4 ([7b6e9a9](https://github.com/phi-ag/solid-pages/commit/7b6e9a9aedbdfcbe04cc4ccdd9f5288233c011d4))
+* **deps:** update dependency vite to v6.2.6 ([bfe94a9](https://github.com/phi-ag/solid-pages/commit/bfe94a9213898fc6f83cc01a7e8e55cbe2ffc6dd))
+* **deps:** update dependency vite to v6.3.0 ([d02de9a](https://github.com/phi-ag/solid-pages/commit/d02de9a9aa2d78cc37e96324646c2ea846ee7916))
+* **deps:** update dependency vite to v6.3.1 ([adbaa13](https://github.com/phi-ag/solid-pages/commit/adbaa13c50204d1e2fbecf2a2ca241d993c2b304))
+* **deps:** update dependency vite to v6.3.2 ([d7dfad3](https://github.com/phi-ag/solid-pages/commit/d7dfad38699b1a4bb40b2fe69709db74893ab5d0))
+* **deps:** update dependency vite to v6.3.3 ([dc59d89](https://github.com/phi-ag/solid-pages/commit/dc59d8956617398fd9c968be66b196873253975d))
+* **deps:** update dependency wrangler to v4.10.0 ([850272c](https://github.com/phi-ag/solid-pages/commit/850272c343534a96293763dca3c6f60e77aea318))
+* **deps:** update dependency wrangler to v4.11.0 ([a6492a8](https://github.com/phi-ag/solid-pages/commit/a6492a892fe0d3174bc5ac7237f96f910e0ea3cf))
+* **deps:** update dependency wrangler to v4.11.1 ([8feb415](https://github.com/phi-ag/solid-pages/commit/8feb415df36233192236823e5f4d3ea79cfe6d45))
+* **deps:** update dependency wrangler to v4.12.0 ([d94e896](https://github.com/phi-ag/solid-pages/commit/d94e8966c3f66765893de8b6521214034a71aef8))
+* **deps:** update dependency wrangler to v4.12.1 ([b9824fa](https://github.com/phi-ag/solid-pages/commit/b9824fa59324d60749069bf7f84e5492c4c9b6c5))
+* **deps:** update dependency wrangler to v4.13.0 ([51c30b7](https://github.com/phi-ag/solid-pages/commit/51c30b7f1c4748736a0bc42b8e865f8dd58304ab))
+* **deps:** update dependency wrangler to v4.13.1 ([3ed16b2](https://github.com/phi-ag/solid-pages/commit/3ed16b204cfe2e605374689e0fc566bb173f2f7a))
+* **deps:** update dependency wrangler to v4.7.2 ([fe64c1b](https://github.com/phi-ag/solid-pages/commit/fe64c1b4f1f05d1edee0c2dc59dc9857e78449d0))
+* **deps:** update dependency wrangler to v4.8.0 ([17c45e0](https://github.com/phi-ag/solid-pages/commit/17c45e0b407d89e1e9134ca7e53675457a1b0d46))
+* **deps:** update dependency wrangler to v4.9.1 ([92ec270](https://github.com/phi-ag/solid-pages/commit/92ec2708eadc55ef69a506b7ede00d8e0165e252))
+* **deps:** update eslint monorepo to v9.24.0 ([713d9b7](https://github.com/phi-ag/solid-pages/commit/713d9b7480322cacf3f7693b1d5a5c32d306af1a))
+* **deps:** update eslint monorepo to v9.25.0 ([5c471c8](https://github.com/phi-ag/solid-pages/commit/5c471c8fb2ec006cdc265c8621dfceb656eb06b2))
+* **deps:** update eslint monorepo to v9.25.1 ([4f039c7](https://github.com/phi-ag/solid-pages/commit/4f039c7c7fb89d3d29efc1c87d1d601d46a902a4))
+* **deps:** update playwright ([5eba2b5](https://github.com/phi-ag/solid-pages/commit/5eba2b5072765e93422c22b103a0360380b298a8))
+* **deps:** update pnpm to v10.8.0 ([4a072af](https://github.com/phi-ag/solid-pages/commit/4a072afa988407d7e4c7144905efc383afe4d2b7))
+* **deps:** update pnpm to v10.8.1 ([d03f9d6](https://github.com/phi-ag/solid-pages/commit/d03f9d66bcd4dea3b29e8f7f838b712c412ef3f0))
+* **deps:** update pnpm to v10.9.0 ([839d363](https://github.com/phi-ag/solid-pages/commit/839d3634d968f164618144342904ccfd3dd74ad4))
+* **deps:** update tailwindcss monorepo to v4.1.3 ([6dba3f7](https://github.com/phi-ag/solid-pages/commit/6dba3f7c5841f7be8126a9ad1f31d3b4c3c5254e))
+* **deps:** update tailwindcss monorepo to v4.1.4 ([afd457f](https://github.com/phi-ag/solid-pages/commit/afd457fa2f65298ee29ef84fe1fe365be4cb9947))
+* **deps:** update vitest monorepo to v3.1.2 ([eb2545c](https://github.com/phi-ag/solid-pages/commit/eb2545ca9034281810b1825e932cde1850211150))
+
+
+### Continuous Integration
+
+* **renovate:** enable automerge for prettier-plugin-sql ([1c2158d](https://github.com/phi-ag/solid-pages/commit/1c2158db21148ea643fda39f45fbe6f4da8d14de))
+
 ## [1.5.16](https://github.com/phi-ag/solid-pages/compare/v1.5.15...v1.5.16) (2025-04-04)
 
 
