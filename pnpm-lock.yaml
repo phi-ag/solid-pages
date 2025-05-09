@@ -109,8 +109,8 @@ importers:
         specifier: 3.5.3
         version: 3.5.3
       prettier-plugin-sql:
-        specifier: 0.19.0
-        version: 0.19.0(prettier@3.5.3)
+        specifier: 0.19.1
+        version: 0.19.1(prettier@3.5.3)
       prettier-plugin-tailwindcss:
         specifier: 0.6.11
         version: 0.6.11(@trivago/prettier-plugin-sort-imports@5.2.2(prettier@3.5.3))(prettier@3.5.3)
@@ -3722,8 +3722,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  jsox@1.2.121:
-    resolution: {integrity: sha512-9Ag50tKhpTwS6r5wh3MJSAvpSof0UBr39Pto8OnzFT32Z/pAbxAsKHzyvsyMEHVslELvHyO/4/jaQELHk8wDcw==}
+  jsox@1.2.123:
+    resolution: {integrity: sha512-LYordXJ/0Q4G8pUE1Pvh4fkfGvZY7lRe4WIJKl0wr0rtFDVw9lcdNW95GH0DceJ6E9xh41zJNW0vreEz7xOxCw==}
     hasBin: true
 
   jsx-ast-utils@3.3.5:
@@ -4481,8 +4481,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier-plugin-sql@0.19.0:
-    resolution: {integrity: sha512-xLeNS6AKMGI+nT3X9nvG/0G3C8XTykmJcVeBUIOXYVKylAC/z2QNJzw93yXqt/skmeRL7G7o23yTSvcza2n8Yw==}
+  prettier-plugin-sql@0.19.1:
+    resolution: {integrity: sha512-Kvxs8uRBdwT64dg/+pjZN1dojLTfZjqtRss8jbUVLqGPXRDp0vJuPkR7otzyQz5no6jSkt6TGFvC80aOnXlpXw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       prettier: ^3.0.3
@@ -9385,7 +9385,7 @@ snapshots:
 
   json5@2.2.3: {}
 
-  jsox@1.2.121: {}
+  jsox@1.2.123: {}
 
   jsx-ast-utils@3.3.5:
     dependencies:
@@ -10244,9 +10244,9 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-sql@0.19.0(prettier@3.5.3):
+  prettier-plugin-sql@0.19.1(prettier@3.5.3):
     dependencies:
-      jsox: 1.2.121
+      jsox: 1.2.123
       node-sql-parser: 5.3.8
       prettier: 3.5.3
       sql-formatter: 15.5.2
