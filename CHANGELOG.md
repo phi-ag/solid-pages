@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.5.19](https://github.com/phi-ag/solid-pages/compare/v1.5.18...v1.5.19) (2025-05-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v9.16.1 ([2fe3b45](https://github.com/phi-ag/solid-pages/commit/2fe3b4568f64cd607a6a0c7d7776c908984bd04d))
+* **deps:** update dependency @sentry/core to v9.17.0 ([58f9715](https://github.com/phi-ag/solid-pages/commit/58f97151599b67649f4d3df571effd4c9b96cd94))
+* **deps:** update dependency @solidjs/start to v1.1.4 ([87bc64d](https://github.com/phi-ag/solid-pages/commit/87bc64dadf562b2c6221b03c53fccbfd4e09acbd))
+
+
+### Miscellaneous Chores
+
+* **config:** migrate renovate config ([3a1477d](https://github.com/phi-ag/solid-pages/commit/3a1477d94912fcaed37b0fea8dfae435cc237198))
+* **deps:** update dependency @types/node to v22.15.14 ([7d81d2f](https://github.com/phi-ag/solid-pages/commit/7d81d2f9a6734c0258c7c3f485df700e78530f21))
+* **deps:** update dependency @types/node to v22.15.15 ([1088cd1](https://github.com/phi-ag/solid-pages/commit/1088cd1f3e2ac9f9594d8533804f195a48763153))
+* **deps:** update dependency @types/node to v22.15.16 ([0a19e52](https://github.com/phi-ag/solid-pages/commit/0a19e52b1d8431b182faafe9fd4f25611b9a639e))
+* **deps:** update dependency @types/node to v22.15.17 ([fb6859a](https://github.com/phi-ag/solid-pages/commit/fb6859abaf810b4e1a78099647a2660bd98f849e))
+* **deps:** update dependency better-sqlite3 to v11.10.0 ([4d49c7d](https://github.com/phi-ag/solid-pages/commit/4d49c7dec495e4d40e452f4a056b78840115eb01))
+* **deps:** update dependency globals to v16.1.0 ([c8dd381](https://github.com/phi-ag/solid-pages/commit/c8dd381b9629f62c84833e39b22b7667b5f3768d))
+* **deps:** update dependency prettier-plugin-sql to v0.19.1 ([cb7b374](https://github.com/phi-ag/solid-pages/commit/cb7b3746a5b7e42744c8dbfa5f265f03d6be1912))
+* **deps:** update dependency typescript-eslint to v8.32.1 ([0cdb8ba](https://github.com/phi-ag/solid-pages/commit/0cdb8ba8a7baea1fe60a79b732bda138bf286307))
+* **deps:** update dependency wrangler to v4.14.2 ([448d4f2](https://github.com/phi-ag/solid-pages/commit/448d4f251819004aec472a8bc36aaf7220098683))
+* **deps:** update dependency wrangler to v4.14.3 ([9cf3d99](https://github.com/phi-ag/solid-pages/commit/9cf3d999cd6740c2faf314737a7c2c70004c07fc))
+* **deps:** update dependency wrangler to v4.14.4 ([a9878ae](https://github.com/phi-ag/solid-pages/commit/a9878aee1eb6f130d031f0c5c9580d457cc08d36))
+* **deps:** update dependency wrangler to v4.15.0 ([4879b87](https://github.com/phi-ag/solid-pages/commit/4879b8731e217030c3d90da11f8045e06e48a925))
+* **deps:** update tailwindcss monorepo to v4.1.6 ([95f71b3](https://github.com/phi-ag/solid-pages/commit/95f71b37181199296a877f8ee56f154c75da3350))
+* move pnpm settings ([46d512f](https://github.com/phi-ag/solid-pages/commit/46d512fc29396af27154fa88707ad220c03b45c5))
+
 ## [1.5.18](https://github.com/phi-ag/solid-pages/compare/v1.5.17...v1.5.18) (2025-05-06)
 
 
