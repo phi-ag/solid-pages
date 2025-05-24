@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.20](https://github.com/phi-ag/solid-pages/compare/v1.5.19...v1.5.20) (2025-05-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([522bc81](https://github.com/phi-ag/solid-pages/commit/522bc815aca348fee3cac9429b77aa855d1ab17a))
+* **renovate:** enable lock file maintenance ([039c62c](https://github.com/phi-ag/solid-pages/commit/039c62ce03c5741dca52de85e6f9206dc7da4c0d))
+
 ## [1.5.19](https://github.com/phi-ag/solid-pages/compare/v1.5.18...v1.5.19) (2025-05-24)
 
 
