@@ -39,8 +39,8 @@ importers:
         specifier: 11.1.0
         version: 11.1.0
       zod:
-        specifier: 3.25.32
-        version: 3.25.32
+        specifier: 3.25.34
+        version: 3.25.34
     devDependencies:
       '@axe-core/playwright':
         specifier: 4.10.1
@@ -5463,8 +5463,8 @@ packages:
   zod@3.22.3:
     resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
 
-  zod@3.25.32:
-    resolution: {integrity: sha512-OSm2xTIRfW8CV5/QKgngwmQW/8aPfGdaQFlrGoErlgg/Epm7cjb6K6VEyExfe65a3VybUOnu381edLb0dfJl0g==}
+  zod@3.25.34:
+    resolution: {integrity: sha512-lZHvSc2PpWdcfpHlyB33HA9nqP16GpC9IpiG4lYq9jZCJVLZNnWd6Y1cj79bcLSBKTkxepfpjckPv5Y5VOPlwA==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -6187,7 +6187,7 @@ snapshots:
       unixify: 1.0.0
       urlpattern-polyfill: 8.0.2
       yargs: 17.7.2
-      zod: 3.25.32
+      zod: 3.25.34
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -7448,7 +7448,7 @@ snapshots:
     dependencies:
       devtools-protocol: 0.0.1439962
       mitt: 3.0.1
-      zod: 3.25.32
+      zod: 3.25.34
 
   citty@0.1.6:
     dependencies:
@@ -10752,7 +10752,7 @@ snapshots:
       unenv: 1.10.0
       unstorage: 1.16.0(db0@0.3.2(better-sqlite3@11.10.0)(drizzle-orm@0.43.1(better-sqlite3@11.10.0)))(ioredis@5.6.1)
       vite: 6.3.5(@types/node@22.15.24)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.39.2)
-      zod: 3.25.32
+      zod: 3.25.34
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -11109,6 +11109,6 @@ snapshots:
 
   zod@3.22.3: {}
 
-  zod@3.25.32: {}
+  zod@3.25.34: {}
 
   zwitch@2.0.4: {}
