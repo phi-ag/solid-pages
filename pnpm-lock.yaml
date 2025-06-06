@@ -43,8 +43,8 @@ importers:
         version: 3.25.46
     devDependencies:
       '@axe-core/playwright':
-        specifier: 4.10.1
-        version: 4.10.1(playwright-core@1.52.0)
+        specifier: 4.10.2
+        version: 4.10.2(playwright-core@1.52.0)
       '@eslint/js':
         specifier: 9.28.0
         version: 9.28.0
@@ -148,8 +148,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@axe-core/playwright@4.10.1':
-    resolution: {integrity: sha512-EV5t39VV68kuAfMKqb/RL+YjYKhfuGim9rgIaQ6Vntb2HgaCaau0h98Y3WEUqW1+PbdzxDtDNjFAipbtZuBmEA==}
+  '@axe-core/playwright@4.10.2':
+    resolution: {integrity: sha512-6/b5BJjG6hDaRNtgzLIfKr5DfwyiLHO4+ByTLB0cJgWSM8Ll7KqtdblIS6bEkwSF642/Ex91vNqIl3GLXGlceg==}
     peerDependencies:
       playwright-core: '>= 1.0.0'
 
@@ -5649,7 +5649,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@axe-core/playwright@4.10.1(playwright-core@1.52.0)':
+  '@axe-core/playwright@4.10.2(playwright-core@1.52.0)':
     dependencies:
       axe-core: 4.10.3
       playwright-core: 1.52.0
