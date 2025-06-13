@@ -1,5 +1,51 @@
 # Changelog
 
+## [1.5.20](https://github.com/phi-ag/solid-pages/compare/v1.5.19...v1.5.20) (2025-06-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v9.23.0 ([ab99981](https://github.com/phi-ag/solid-pages/commit/ab999817930766649f7811d39e346e6c71496453))
+* **deps:** update dependency @sentry/core to v9.24.0 ([61bd8d2](https://github.com/phi-ag/solid-pages/commit/61bd8d21ceeaac0ba2753147f51811e0a3f93c08))
+* **deps:** update dependency drizzle-orm to v0.44.0 ([7073cb0](https://github.com/phi-ag/solid-pages/commit/7073cb0a7c5a7ba6cd5fe8c592a0d54dc196de3d))
+* **deps:** update dependency drizzle-orm to v0.44.1 ([0462dd7](https://github.com/phi-ag/solid-pages/commit/0462dd711f62149e47183d148e3efe5d1a87ad39))
+* **deps:** update dependency zod to v3.25.30 ([d0bcb2b](https://github.com/phi-ag/solid-pages/commit/d0bcb2bd9257fe70f88b3849438d13380b4d2e3a))
+* **deps:** update dependency zod to v3.25.32 ([60bc463](https://github.com/phi-ag/solid-pages/commit/60bc4633b2bd4719c05f8133ddb84d6d0e0eecb6))
+* **deps:** update dependency zod to v3.25.34 ([6dc76ce](https://github.com/phi-ag/solid-pages/commit/6dc76cec5dac0fbc8264900b2b2615d8730f4a24))
+* **deps:** update dependency zod to v3.25.36 ([04d14f3](https://github.com/phi-ag/solid-pages/commit/04d14f3a99dfb215f029adc5cf6f4749b5cb997b))
+* **deps:** update dependency zod to v3.25.42 ([8deccda](https://github.com/phi-ag/solid-pages/commit/8deccda99de42d558b5419ccdabdb3bebe801b3c))
+* **deps:** update dependency zod to v3.25.46 ([3bba716](https://github.com/phi-ag/solid-pages/commit/3bba716b597be3c376fd54ce3eccbbab4037f6a7))
+* **deps:** update dependency zod to v3.25.63 ([f3cdff9](https://github.com/phi-ag/solid-pages/commit/f3cdff9257e9fe4eb61e91dab804cf95a04c0642))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([8ed0b7f](https://github.com/phi-ag/solid-pages/commit/8ed0b7fef3880f1df5e42dd334ec37a508fbfdb5))
+* **deps:** lock file maintenance ([2d187b3](https://github.com/phi-ag/solid-pages/commit/2d187b3f0517bb5e3e393c6adec49330429d9e32))
+* **deps:** lock file maintenance ([522bc81](https://github.com/phi-ag/solid-pages/commit/522bc815aca348fee3cac9429b77aa855d1ab17a))
+* **deps:** update dependency @axe-core/playwright to v4.10.2 ([faea64e](https://github.com/phi-ag/solid-pages/commit/faea64ea7be9f78684629628e94df53e890a52dd))
+* **deps:** update dependency @types/node to v22.15.23 ([6920b24](https://github.com/phi-ag/solid-pages/commit/6920b24a39d9b97867af9c89bb4554a60f2fa1bb))
+* **deps:** update dependency @types/node to v22.15.24 ([11c8c7f](https://github.com/phi-ag/solid-pages/commit/11c8c7f8925db27bcaba4813719929213398f029))
+* **deps:** update dependency @types/node to v22.15.26 ([e7ee022](https://github.com/phi-ag/solid-pages/commit/e7ee0220e3ca9acc5ce750b88fc63618d4a13ab4))
+* **deps:** update dependency @types/node to v22.15.29 ([b0d626a](https://github.com/phi-ag/solid-pages/commit/b0d626a8a6e725df56dc58a01a7769165ebc156b))
+* **deps:** update dependency @types/node to v22.15.30 ([52c0979](https://github.com/phi-ag/solid-pages/commit/52c09795ae1a54677187da59ba5cc8e53e702099))
+* **deps:** update dependency @types/node to v22.15.31 ([a171a36](https://github.com/phi-ag/solid-pages/commit/a171a36e9a18468b627f6507ab90a7c368a89440))
+* **deps:** update dependency globals to v16.2.0 ([d87e33c](https://github.com/phi-ag/solid-pages/commit/d87e33c03c76cdd252405d981cc955c3a35ffc7f))
+* **deps:** update dependency lighthouse to v12.6.1 ([ba55962](https://github.com/phi-ag/solid-pages/commit/ba55962ede0c5d54a6698fa7fe179e43bbeecfc2))
+* **deps:** update dependency prettier-plugin-tailwindcss to v0.6.12 ([afa758d](https://github.com/phi-ag/solid-pages/commit/afa758d34d18bade08093095e8c3334139eec0cd))
+* **deps:** update dependency typescript-eslint to v8.33.0 ([5802af9](https://github.com/phi-ag/solid-pages/commit/5802af97bf641c85a58fa23e7fa58f98d366a474))
+* **deps:** update dependency typescript-eslint to v8.33.1 ([7999041](https://github.com/phi-ag/solid-pages/commit/79990416ada991c3809ce033d0740e910ae1d688))
+* **deps:** update dependency typescript-eslint to v8.34.0 ([b8c5fbf](https://github.com/phi-ag/solid-pages/commit/b8c5fbfddf743bcd97551b8f6093e2ef4431fa47))
+* **deps:** update dependency vinxi to v0.5.7 ([1c995ff](https://github.com/phi-ag/solid-pages/commit/1c995ff6fdf1e572defb0e09f7173a088ef0b817))
+* **deps:** update dependency wrangler to v4.17.0 ([31e49b3](https://github.com/phi-ag/solid-pages/commit/31e49b3dac606bb7ea197c9531194476a3edd24b))
+* **deps:** update dependency wrangler to v4.18.0 ([f6871d9](https://github.com/phi-ag/solid-pages/commit/f6871d97a5bfa01ad149054142d20dacaa536151))
+* **deps:** update dependency wrangler to v4.20.0 ([7db4902](https://github.com/phi-ag/solid-pages/commit/7db490225f61b44f6b8886b3e087b05c5cd13f24))
+* **deps:** update eslint monorepo to v9.28.0 ([c3ab9f3](https://github.com/phi-ag/solid-pages/commit/c3ab9f3e5f397f772953109be95283dbc6e9d85c))
+* **deps:** update playwright ([3b64098](https://github.com/phi-ag/solid-pages/commit/3b6409875af93f471852177063433f6147799358))
+* **deps:** update tailwindcss monorepo to v4.1.10 ([03a7027](https://github.com/phi-ag/solid-pages/commit/03a70275e28cec4ab8229866147b0ccc41e77b9b))
+* **deps:** update tailwindcss monorepo to v4.1.8 ([26529c1](https://github.com/phi-ag/solid-pages/commit/26529c1e1a901b1de3a1331f92ece3fb2161a9cd))
+* **renovate:** enable lock file maintenance ([039c62c](https://github.com/phi-ag/solid-pages/commit/039c62ce03c5741dca52de85e6f9206dc7da4c0d))
+
 ## [1.5.19](https://github.com/phi-ag/solid-pages/compare/v1.5.18...v1.5.19) (2025-05-24)
 
 
