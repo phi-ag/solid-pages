@@ -6,6 +6,7 @@
     "group:monorepos",
     "group:recommended"
   ],
+  "ignorePresets": ["workarounds:typesNodeVersioning"],
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
