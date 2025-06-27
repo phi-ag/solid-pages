@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@sentry/core':
-        specifier: 9.32.0
-        version: 9.32.0
+        specifier: 9.33.0
+        version: 9.33.0
       '@solidjs/router':
         specifier: 0.15.3
         version: 0.15.3(solid-js@1.9.7)
@@ -1379,8 +1379,8 @@ packages:
     resolution: {integrity: sha512-ixm8NISFlPlEo3FjSaqmq4nnd13BRHoafwJ5MG+okCz6BKGZ1SexEggP42/QpGvDprUUHnfncG6WUMgcarr1zA==}
     engines: {node: '>=14.18'}
 
-  '@sentry/core@9.32.0':
-    resolution: {integrity: sha512-1wAXMMmeY4Ny2MJBCuri3b4LMVPjqXdgbVgTxxipGW+gzPsjv+8+LCSnJAR/cRBr8JoXV+qGC2tE06rI1XDj3A==}
+  '@sentry/core@9.33.0':
+    resolution: {integrity: sha512-0mtJAU+x10+q5aV/txyeuPjJ0TmObcD701R0tY0s71yJJOltqqMrmgNpqyuMI/VOASuzTZesiMYdbG6xb3zeSw==}
     engines: {node: '>=18'}
 
   '@sentry/integrations@7.120.3':
@@ -6553,7 +6553,7 @@ snapshots:
       '@sentry/types': 8.9.2
       '@sentry/utils': 8.9.2
 
-  '@sentry/core@9.32.0': {}
+  '@sentry/core@9.33.0': {}
 
   '@sentry/integrations@7.120.3':
     dependencies:
