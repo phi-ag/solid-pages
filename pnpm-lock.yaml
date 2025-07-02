@@ -100,11 +100,11 @@ importers:
         specifier: 16.3.0
         version: 16.3.0
       lighthouse:
-        specifier: 12.7.0
-        version: 12.7.0
+        specifier: 12.7.1
+        version: 12.7.1
       playwright-lighthouse:
         specifier: 4.0.0
-        version: 4.0.0(lighthouse@12.7.0)(playwright-core@1.53.2)
+        version: 4.0.0(lighthouse@12.7.1)(playwright-core@1.53.2)
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -3825,8 +3825,8 @@ packages:
   lighthouse-stack-packs@1.12.2:
     resolution: {integrity: sha512-Ug8feS/A+92TMTCK6yHYLwaFMuelK/hAKRMdldYkMNwv+d9PtWxjXEg6rwKtsUXTADajhdrhXyuNCJ5/sfmPFw==}
 
-  lighthouse@12.7.0:
-    resolution: {integrity: sha512-Pr0ZUYpr+B6kwmLVpG2CRbDn/zrmP8YxieSKHN7IZWzRQAabZ8+hW4umLH01kBaezDD4X6Gmoq6TPgr4/SlTaQ==}
+  lighthouse@12.7.1:
+    resolution: {integrity: sha512-AfiLXG8gnisMPFqNK4+Y36A+JrirTYsogIiuIL1pQsAkwPHaTnBXN+ldt+TiLssEbKIkIpaWhViDQjUJbrbxnQ==}
     engines: {node: '>=18.20'}
     hasBin: true
 
@@ -9502,7 +9502,7 @@ snapshots:
 
   lighthouse-stack-packs@1.12.2: {}
 
-  lighthouse@12.7.0:
+  lighthouse@12.7.1:
     dependencies:
       '@paulirish/trace_engine': 0.0.56
       '@sentry/node': 9.33.0
@@ -10207,10 +10207,10 @@ snapshots:
 
   playwright-core@1.53.2: {}
 
-  playwright-lighthouse@4.0.0(lighthouse@12.7.0)(playwright-core@1.53.2):
+  playwright-lighthouse@4.0.0(lighthouse@12.7.1)(playwright-core@1.53.2):
     dependencies:
       chalk: 4.1.2
-      lighthouse: 12.7.0
+      lighthouse: 12.7.1
       ua-parser-js: 1.0.40
     optionalDependencies:
       playwright-core: 1.53.2
