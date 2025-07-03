@@ -18,8 +18,8 @@ importers:
         specifier: 0.15.3
         version: 0.15.3(solid-js@1.9.7)
       '@solidjs/start':
-        specifier: 1.1.5
-        version: 1.1.5(@testing-library/jest-dom@6.6.3)(solid-js@1.9.7)(vinxi@0.5.8(@types/node@24.0.10)(better-sqlite3@12.2.0)(db0@0.3.2(better-sqlite3@12.2.0)(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.6.1)(better-sqlite3@12.2.0)))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.6.1)(better-sqlite3@12.2.0))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0))(vite@6.3.5(@types/node@24.0.10)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0))
+        specifier: 1.1.6
+        version: 1.1.6(@testing-library/jest-dom@6.6.3)(solid-js@1.9.7)(vinxi@0.5.8(@types/node@24.0.10)(better-sqlite3@12.2.0)(db0@0.3.2(better-sqlite3@12.2.0)(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.6.1)(better-sqlite3@12.2.0)))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.6.1)(better-sqlite3@12.2.0))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0))(vite@6.3.5(@types/node@24.0.10)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0))
       class-variance-authority:
         specifier: 0.7.1
         version: 0.7.1
@@ -1629,8 +1629,8 @@ packages:
     peerDependencies:
       solid-js: ^1.8.6
 
-  '@solidjs/start@1.1.5':
-    resolution: {integrity: sha512-yQknZf4mN4ZFqG6HkDrDDuCg7NnphkQ0jevxXQdfJAffvMixwjTsp4zlFF95t+GIKANYmuGr+1vntGqkGu7tWw==}
+  '@solidjs/start@1.1.6':
+    resolution: {integrity: sha512-WUH+89A5jPNwx2dqqGz4PbrQH2OebnlyxZSiREAse9Z1GW41HwtCB0x7N2SJ5kgdn9EuZwCwRbZ/4nRGsbKuPQ==}
     peerDependencies:
       vinxi: 0.5.8
 
@@ -7114,7 +7114,7 @@ snapshots:
     dependencies:
       solid-js: 1.9.7
 
-  '@solidjs/start@1.1.5(@testing-library/jest-dom@6.6.3)(solid-js@1.9.7)(vinxi@0.5.8(@types/node@24.0.10)(better-sqlite3@12.2.0)(db0@0.3.2(better-sqlite3@12.2.0)(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.6.1)(better-sqlite3@12.2.0)))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.6.1)(better-sqlite3@12.2.0))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0))(vite@6.3.5(@types/node@24.0.10)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0))':
+  '@solidjs/start@1.1.6(@testing-library/jest-dom@6.6.3)(solid-js@1.9.7)(vinxi@0.5.8(@types/node@24.0.10)(better-sqlite3@12.2.0)(db0@0.3.2(better-sqlite3@12.2.0)(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.6.1)(better-sqlite3@12.2.0)))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.6.1)(better-sqlite3@12.2.0))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0))(vite@6.3.5(@types/node@24.0.10)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0))':
     dependencies:
       '@tanstack/server-functions-plugin': 1.121.21(vite@6.3.5(@types/node@24.0.10)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0))
       '@vinxi/plugin-directives': 0.5.1(vinxi@0.5.8(@types/node@24.0.10)(better-sqlite3@12.2.0)(db0@0.3.2(better-sqlite3@12.2.0)(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.6.1)(better-sqlite3@12.2.0)))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.6.1)(better-sqlite3@12.2.0))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0))
