@@ -18,7 +18,6 @@ interface CacheStorage {
 }
 
 declare global {
-  // eslint-disable-next-line no-var
   var cfPlatformProxy: Proxy;
 }
 
