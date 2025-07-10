@@ -20,11 +20,11 @@ export const audSchema = z
 export const payloadSchema = z.object({
   type: z.literal("app"),
   aud: audSchema,
-  email: z.string().email().optional(),
+  email: z.email().optional(),
   exp: epochSchema,
   iat: epochSchema,
   nbf: epochSchema.optional(),
-  iss: z.string().url(),
+  iss: z.url(),
   identity_nonce: z.string().optional(),
   common_name: z.string().optional(),
   sub: z.string(),
