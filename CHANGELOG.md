@@ -1,5 +1,32 @@
 # Changelog
 
+## [1.5.21](https://github.com/phi-ag/solid-pages/compare/v1.5.20...v1.5.21) (2025-07-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v9.38.0 ([c226437](https://github.com/phi-ag/solid-pages/commit/c2264379793cc41b5615a606b36f25f2883875e6))
+* **deps:** update dependency zod to v4 ([20a240c](https://github.com/phi-ag/solid-pages/commit/20a240c84ad8e6b706d4808a9234decb405a5aba))
+* **deps:** update dependency zod to v4.0.5 ([5edb3e4](https://github.com/phi-ag/solid-pages/commit/5edb3e4db5ff5212cf3c3f76da0fe7d6c8b3f6a8))
+
+
+### Reverts
+
+* **renovate:** pnpm dedupe workaround ([74b400a](https://github.com/phi-ag/solid-pages/commit/74b400a61bf7cfef8fc6a6e22bd8fd27d70ca6e3))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @types/node to v24.0.13 ([0021d87](https://github.com/phi-ag/solid-pages/commit/0021d8748621b0816ea37901bbb83fe6a6a8ea0d))
+* **deps:** update dependency lighthouse to v12.8.0 ([e6bdf5b](https://github.com/phi-ag/solid-pages/commit/e6bdf5bc31d00bbf8e36dc6a7c5e6471e5ffb548))
+* **deps:** update dependency prettier-plugin-sql to v0.19.2 ([0878000](https://github.com/phi-ag/solid-pages/commit/0878000db5354282ac9007d386cd84464dd49d9c))
+* **deps:** update dependency prettier-plugin-tailwindcss to v0.6.14 ([12689e1](https://github.com/phi-ag/solid-pages/commit/12689e110337a3d784537654dfbbef5f73bd2784))
+* **deps:** update dependency wrangler to v4.24.3 ([5541429](https://github.com/phi-ag/solid-pages/commit/554142970f82583a50e47dc7bce982d51bc58800))
+* **deps:** update eslint monorepo to v9.31.0 ([fa5efe6](https://github.com/phi-ag/solid-pages/commit/fa5efe6e5a2decc9d0e1988a1315ccc2dc198f65))
+* **deps:** update playwright ([ce72dd6](https://github.com/phi-ag/solid-pages/commit/ce72dd6863a27d618362f48737d78506d854d8ae))
+* **deps:** update playwright to v1.54.1 ([c580b13](https://github.com/phi-ag/solid-pages/commit/c580b13aef86e1dda7fc067bf6a8011ec2188755))
+* migrate to zod v4 ([b07a197](https://github.com/phi-ag/solid-pages/commit/b07a197885e86d730001b619ecdb9b82ad4edc6d))
+
 ## [1.5.20](https://github.com/phi-ag/solid-pages/compare/v1.5.19...v1.5.20) (2025-07-09)
 
 
