@@ -100,11 +100,11 @@ importers:
         specifier: 16.3.0
         version: 16.3.0
       lighthouse:
-        specifier: 12.7.1
-        version: 12.7.1
+        specifier: 12.8.0
+        version: 12.8.0
       playwright-lighthouse:
         specifier: 4.0.0
-        version: 4.0.0(lighthouse@12.7.1)(playwright-core@1.54.1)
+        version: 4.0.0(lighthouse@12.8.0)(playwright-core@1.54.1)
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -1362,8 +1362,8 @@ packages:
     resolution: {integrity: sha512-dfUnCxiN9H4ap84DvD2ubjw+3vUNpstxa0TneY/Paat8a3R4uQZDLSvWjmznAY/DoahqTHl9V46HF/Zs3F29pg==}
     engines: {node: '>= 10.0.0'}
 
-  '@paulirish/trace_engine@0.0.56':
-    resolution: {integrity: sha512-iLBbdTlQXJSMMGi4beZloqJ120Re4YWcYN/TSDeufbfS209DOWDSiHQVzIq2rme0FEfN+BR3BcIwZaAY9thn3g==}
+  '@paulirish/trace_engine@0.0.57':
+    resolution: {integrity: sha512-s+JNJ53B1MiEqCOD2hnK96wFTRRStxFmtm6QaIe2jiNI+lkS9mYEgnHOH2caQ/dEPn6wY+f2u5dW6aFYjmbaiw==}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -3796,8 +3796,8 @@ packages:
   lighthouse-stack-packs@1.12.2:
     resolution: {integrity: sha512-Ug8feS/A+92TMTCK6yHYLwaFMuelK/hAKRMdldYkMNwv+d9PtWxjXEg6rwKtsUXTADajhdrhXyuNCJ5/sfmPFw==}
 
-  lighthouse@12.7.1:
-    resolution: {integrity: sha512-AfiLXG8gnisMPFqNK4+Y36A+JrirTYsogIiuIL1pQsAkwPHaTnBXN+ldt+TiLssEbKIkIpaWhViDQjUJbrbxnQ==}
+  lighthouse@12.8.0:
+    resolution: {integrity: sha512-MNmHLGRsaApxrigFl6M4FSvat8opl6K4MnBRWdU3yEaTH5pzrDSWjdIL2cBdCoV7OgAD1Cy/cdBiXR+ZzdsBNw==}
     engines: {node: '>=18.20'}
     hasBin: true
 
@@ -6825,7 +6825,7 @@ snapshots:
       '@parcel/watcher-win32-ia32': 2.5.1
       '@parcel/watcher-win32-x64': 2.5.1
 
-  '@paulirish/trace_engine@0.0.56':
+  '@paulirish/trace_engine@0.0.57':
     dependencies:
       legacy-javascript: 0.0.1
       third-party-web: 0.27.0
@@ -9440,9 +9440,9 @@ snapshots:
 
   lighthouse-stack-packs@1.12.2: {}
 
-  lighthouse@12.7.1:
+  lighthouse@12.8.0:
     dependencies:
-      '@paulirish/trace_engine': 0.0.56
+      '@paulirish/trace_engine': 0.0.57
       '@sentry/node': 9.35.0
       axe-core: 4.10.3
       chrome-launcher: 1.2.0
@@ -10145,10 +10145,10 @@ snapshots:
 
   playwright-core@1.54.1: {}
 
-  playwright-lighthouse@4.0.0(lighthouse@12.7.1)(playwright-core@1.54.1):
+  playwright-lighthouse@4.0.0(lighthouse@12.8.0)(playwright-core@1.54.1):
     dependencies:
       chalk: 4.1.2
-      lighthouse: 12.7.1
+      lighthouse: 12.8.0
       ua-parser-js: 1.0.40
     optionalDependencies:
       playwright-core: 1.54.1
