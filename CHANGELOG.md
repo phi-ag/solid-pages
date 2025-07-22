@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.5.21](https://github.com/phi-ag/solid-pages/compare/v1.5.20...v1.5.21) (2025-07-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v9.38.0 ([c226437](https://github.com/phi-ag/solid-pages/commit/c2264379793cc41b5615a606b36f25f2883875e6))
+* **deps:** update dependency @sentry/core to v9.39.0 ([2d44fa5](https://github.com/phi-ag/solid-pages/commit/2d44fa5bc5bef3cd2cc5f447e406e8e1389be9a0))
+* **deps:** update dependency @sentry/core to v9.40.0 ([f7d943a](https://github.com/phi-ag/solid-pages/commit/f7d943a133626ac9dce4d7121ac339d479fc20a2))
+* **deps:** update dependency @solidjs/start to v1.1.7 ([35050b6](https://github.com/phi-ag/solid-pages/commit/35050b6bfe3eab2de6dbf0a7b6b694604c0b7698))
+* **deps:** update dependency drizzle-orm to v0.44.3 ([81d12c5](https://github.com/phi-ag/solid-pages/commit/81d12c5728672941f675a3ee5cac64c0a9b157f0))
+* **deps:** update dependency zod to v4 ([20a240c](https://github.com/phi-ag/solid-pages/commit/20a240c84ad8e6b706d4808a9234decb405a5aba))
+* **deps:** update dependency zod to v4.0.5 ([5edb3e4](https://github.com/phi-ag/solid-pages/commit/5edb3e4db5ff5212cf3c3f76da0fe7d6c8b3f6a8))
+
+
+### Reverts
+
+* **renovate:** pnpm dedupe workaround ([74b400a](https://github.com/phi-ag/solid-pages/commit/74b400a61bf7cfef8fc6a6e22bd8fd27d70ca6e3))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([18d1738](https://github.com/phi-ag/solid-pages/commit/18d1738777362d3cf0869681a104b7e2c283f693))
+* **deps:** lock file maintenance ([fa7f652](https://github.com/phi-ag/solid-pages/commit/fa7f6528057f3b3c2021b4d94328cf6b578419fc))
+* **deps:** update dependency @types/node to v24.0.13 ([0021d87](https://github.com/phi-ag/solid-pages/commit/0021d8748621b0816ea37901bbb83fe6a6a8ea0d))
+* **deps:** update dependency @types/node to v24.0.14 ([ffc4840](https://github.com/phi-ag/solid-pages/commit/ffc4840aa28ca06e949f9318ffbf9e470406a599))
+* **deps:** update dependency @types/node to v24.0.15 ([837badb](https://github.com/phi-ag/solid-pages/commit/837badb94b5e5ab0adb6c2d697d4d5b2a32648f8))
+* **deps:** update dependency lighthouse to v12.8.0 ([e6bdf5b](https://github.com/phi-ag/solid-pages/commit/e6bdf5bc31d00bbf8e36dc6a7c5e6471e5ffb548))
+* **deps:** update dependency prettier-plugin-sql to v0.19.2 ([0878000](https://github.com/phi-ag/solid-pages/commit/0878000db5354282ac9007d386cd84464dd49d9c))
+* **deps:** update dependency prettier-plugin-tailwindcss to v0.6.14 ([12689e1](https://github.com/phi-ag/solid-pages/commit/12689e110337a3d784537654dfbbef5f73bd2784))
+* **deps:** update dependency typescript-eslint to v8.37.0 ([4634ef9](https://github.com/phi-ag/solid-pages/commit/4634ef981b53d75288a30dbfd399d985267e1aaf))
+* **deps:** update dependency typescript-eslint to v8.38.0 ([91cc244](https://github.com/phi-ag/solid-pages/commit/91cc244561848f4cf08e6ed8411841a7651a0225))
+* **deps:** update dependency wrangler to v4.24.3 ([5541429](https://github.com/phi-ag/solid-pages/commit/554142970f82583a50e47dc7bce982d51bc58800))
+* **deps:** update dependency wrangler to v4.24.4 ([d9a5fb5](https://github.com/phi-ag/solid-pages/commit/d9a5fb5f035244eea831f849104315ede15b79fa))
+* **deps:** update dependency wrangler to v4.25.0 ([a2ca74f](https://github.com/phi-ag/solid-pages/commit/a2ca74fc7137004baa7cd62dc7d5e05451b7644b))
+* **deps:** update eslint monorepo to v9.31.0 ([fa5efe6](https://github.com/phi-ag/solid-pages/commit/fa5efe6e5a2decc9d0e1988a1315ccc2dc198f65))
+* **deps:** update node.js to v24.4.1 ([abb053b](https://github.com/phi-ag/solid-pages/commit/abb053bfbf1e5a1ee7dd6eb534b4fac2a26b5b1d))
+* **deps:** update playwright ([ce72dd6](https://github.com/phi-ag/solid-pages/commit/ce72dd6863a27d618362f48737d78506d854d8ae))
+* **deps:** update playwright to v1.54.1 ([c580b13](https://github.com/phi-ag/solid-pages/commit/c580b13aef86e1dda7fc067bf6a8011ec2188755))
+* migrate to zod v4 ([b07a197](https://github.com/phi-ag/solid-pages/commit/b07a197885e86d730001b619ecdb9b82ad4edc6d))
+
 ## [1.5.20](https://github.com/phi-ag/solid-pages/compare/v1.5.19...v1.5.20) (2025-07-09)
 
 
