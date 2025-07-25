@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.5.22](https://github.com/phi-ag/solid-pages/compare/v1.5.21...v1.5.22) (2025-07-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v9.41.0 ([bd6651e](https://github.com/phi-ag/solid-pages/commit/bd6651e69c4f701e5d07bfc17b485fc7ce4a8f81))
+* **deps:** update dependency @sentry/core to v9.42.0 ([ad191aa](https://github.com/phi-ag/solid-pages/commit/ad191aadf7ad04dd7304adca69dba9151f9378aa))
+* **deps:** update dependency zod to v4.0.10 ([791c4f1](https://github.com/phi-ag/solid-pages/commit/791c4f15b91548595867450132e9f9204d2c9dbc))
+* **deps:** update dependency zod to v4.0.8 ([7cbe40a](https://github.com/phi-ag/solid-pages/commit/7cbe40aada783e088e0208c7d6bf91fe1aecd982))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @types/node to v24.1.0 ([2572f8a](https://github.com/phi-ag/solid-pages/commit/2572f8a58c0eca7c75ab536d5c015b8a1cbb5453))
+* **deps:** update dependency wrangler to v4.25.1 ([0b1d3d8](https://github.com/phi-ag/solid-pages/commit/0b1d3d80b91781d02b4db3829df7d4c80c16a839))
+* **deps:** update dependency wrangler to v4.26.0 ([b9b8988](https://github.com/phi-ag/solid-pages/commit/b9b898842e494e75efc10dcda475d1cf2fff5733))
+* **deps:** update eslint monorepo to v9.32.0 ([b661933](https://github.com/phi-ag/solid-pages/commit/b661933cc7870850239140881d0468682d81d3da))
+* **deps:** update phi-ag/run-playwright digest to fa6033d ([f2a688c](https://github.com/phi-ag/solid-pages/commit/f2a688c13b2f56c13b5ccd28631c5a41d0dd25d5))
+* **deps:** update terraform cloudflare to v4.52.1 ([5cefdc7](https://github.com/phi-ag/solid-pages/commit/5cefdc7da92608bdd3012a2781935e1d4d376c2a))
+
 ## [1.5.21](https://github.com/phi-ag/solid-pages/compare/v1.5.20...v1.5.21) (2025-07-22)
 
 
