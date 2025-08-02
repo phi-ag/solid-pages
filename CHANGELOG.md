@@ -1,5 +1,39 @@
 # Changelog
 
+## [1.5.22](https://github.com/phi-ag/solid-pages/compare/v1.5.21...v1.5.22) (2025-08-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v9.41.0 ([bd6651e](https://github.com/phi-ag/solid-pages/commit/bd6651e69c4f701e5d07bfc17b485fc7ce4a8f81))
+* **deps:** update dependency @sentry/core to v9.42.0 ([ad191aa](https://github.com/phi-ag/solid-pages/commit/ad191aadf7ad04dd7304adca69dba9151f9378aa))
+* **deps:** update dependency @sentry/core to v9.42.1 ([598832c](https://github.com/phi-ag/solid-pages/commit/598832c8ed385df02fae335c53c88c0c7b2d6e0f))
+* **deps:** update dependency @sentry/core to v9.43.0 ([5b2c578](https://github.com/phi-ag/solid-pages/commit/5b2c57812f2137b09cff2b8f010759157242807d))
+* **deps:** update dependency @sentry/core to v9.44.0 ([ea7cfd8](https://github.com/phi-ag/solid-pages/commit/ea7cfd847f486936be12dc1eca81620687f8875d))
+* **deps:** update dependency zod to v4.0.10 ([791c4f1](https://github.com/phi-ag/solid-pages/commit/791c4f15b91548595867450132e9f9204d2c9dbc))
+* **deps:** update dependency zod to v4.0.13 ([30cf83a](https://github.com/phi-ag/solid-pages/commit/30cf83a3334602459e9ee4b7692ad54ee21a6835))
+* **deps:** update dependency zod to v4.0.14 ([0b6d44d](https://github.com/phi-ag/solid-pages/commit/0b6d44d730a87cb7769441372042847ba3ed4cba))
+* **deps:** update dependency zod to v4.0.8 ([7cbe40a](https://github.com/phi-ag/solid-pages/commit/7cbe40aada783e088e0208c7d6bf91fe1aecd982))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([73e84bd](https://github.com/phi-ag/solid-pages/commit/73e84bde32bb1ae74004d3b79b11f45b2e506c28))
+* **deps:** update dependency @testing-library/jest-dom to v6.6.4 ([10b3d97](https://github.com/phi-ag/solid-pages/commit/10b3d9738e2162107bdaebef7564efc4455a7b36))
+* **deps:** update dependency @types/node to v24.1.0 ([2572f8a](https://github.com/phi-ag/solid-pages/commit/2572f8a58c0eca7c75ab536d5c015b8a1cbb5453))
+* **deps:** update dependency lighthouse to v12.8.1 ([6b635c0](https://github.com/phi-ag/solid-pages/commit/6b635c00062fe5e25b81eeda4bbea6d7c105d0e0))
+* **deps:** update dependency vite-plugin-solid to v2.11.8 ([b4e6912](https://github.com/phi-ag/solid-pages/commit/b4e6912689099986bf514bec4593640f8afd60f9))
+* **deps:** update dependency wrangler to v4.25.1 ([0b1d3d8](https://github.com/phi-ag/solid-pages/commit/0b1d3d80b91781d02b4db3829df7d4c80c16a839))
+* **deps:** update dependency wrangler to v4.26.0 ([b9b8988](https://github.com/phi-ag/solid-pages/commit/b9b898842e494e75efc10dcda475d1cf2fff5733))
+* **deps:** update dependency wrangler to v4.26.1 ([df7c008](https://github.com/phi-ag/solid-pages/commit/df7c0083cd9425dd4bc8e3c7516178bb6bac4741))
+* **deps:** update dependency wrangler to v4.27.0 ([7ca5b00](https://github.com/phi-ag/solid-pages/commit/7ca5b008a1daa8a9703c8a6893225562ed25195a))
+* **deps:** update eslint monorepo to v9.32.0 ([b661933](https://github.com/phi-ag/solid-pages/commit/b661933cc7870850239140881d0468682d81d3da))
+* **deps:** update node.js to v24.5.0 ([05b5c9a](https://github.com/phi-ag/solid-pages/commit/05b5c9aacff5a09e8663395ba8a9aea9f0df2194))
+* **deps:** update phi-ag/run-playwright digest to fa6033d ([f2a688c](https://github.com/phi-ag/solid-pages/commit/f2a688c13b2f56c13b5ccd28631c5a41d0dd25d5))
+* **deps:** update playwright ([c65e7c0](https://github.com/phi-ag/solid-pages/commit/c65e7c087a1c81ee7b852472a344a4c47d612e98))
+* **deps:** update pnpm to v10.14.0 ([4a0acac](https://github.com/phi-ag/solid-pages/commit/4a0acac0abfd49e09862f773a70d929faccea881))
+* **deps:** update terraform cloudflare to v4.52.1 ([5cefdc7](https://github.com/phi-ag/solid-pages/commit/5cefdc7da92608bdd3012a2781935e1d4d376c2a))
+
 ## [1.5.21](https://github.com/phi-ag/solid-pages/compare/v1.5.20...v1.5.21) (2025-07-22)
 
 
