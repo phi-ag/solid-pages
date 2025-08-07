@@ -41,7 +41,7 @@
     "class-variance-authority": "0.7.1",
     "drizzle-orm": "0.44.3",
     "lodash-es": "4.17.21",
-    "solid-js": "1.9.7",
+    "solid-js": "1.9.8",
     "toucan-js": "4.1.1",
     "uuid": "11.1.0",
     "zod": "4.0.15"
