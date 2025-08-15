@@ -1,5 +1,68 @@
 # Changelog
 
+## [1.5.22](https://github.com/phi-ag/solid-pages/compare/v1.5.21...v1.5.22) (2025-08-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/core to v9.41.0 ([bd6651e](https://github.com/phi-ag/solid-pages/commit/bd6651e69c4f701e5d07bfc17b485fc7ce4a8f81))
+* **deps:** update dependency @sentry/core to v9.42.0 ([ad191aa](https://github.com/phi-ag/solid-pages/commit/ad191aadf7ad04dd7304adca69dba9151f9378aa))
+* **deps:** update dependency @sentry/core to v9.42.1 ([598832c](https://github.com/phi-ag/solid-pages/commit/598832c8ed385df02fae335c53c88c0c7b2d6e0f))
+* **deps:** update dependency @sentry/core to v9.43.0 ([5b2c578](https://github.com/phi-ag/solid-pages/commit/5b2c57812f2137b09cff2b8f010759157242807d))
+* **deps:** update dependency @sentry/core to v9.44.0 ([ea7cfd8](https://github.com/phi-ag/solid-pages/commit/ea7cfd847f486936be12dc1eca81620687f8875d))
+* **deps:** update dependency @sentry/core to v9.44.1 ([7c5c019](https://github.com/phi-ag/solid-pages/commit/7c5c019c36f8b7d3a449a0422df87ae5d9c0ffd7))
+* **deps:** update dependency @sentry/core to v9.44.2 ([060d386](https://github.com/phi-ag/solid-pages/commit/060d3861a0e02ce278fbe6d6715fe26bb1cd21b5))
+* **deps:** update dependency @sentry/core to v9.45.0 ([478ad54](https://github.com/phi-ag/solid-pages/commit/478ad54ef50c5481e9e447bcdfaf6cdfdab82b49))
+* **deps:** update dependency @sentry/core to v9.46.0 ([e2dae8d](https://github.com/phi-ag/solid-pages/commit/e2dae8da7ebd52b6cd65a52d9ef527cf6e428e46))
+* **deps:** update dependency solid-js to v1.9.8 ([9a59805](https://github.com/phi-ag/solid-pages/commit/9a598051b03e920ba693e853d539abd7bbda46f0))
+* **deps:** update dependency solid-js to v1.9.9 ([bbfd866](https://github.com/phi-ag/solid-pages/commit/bbfd8662dcac050e9119334db2b613d831215c15))
+* **deps:** update dependency zod to v4.0.10 ([791c4f1](https://github.com/phi-ag/solid-pages/commit/791c4f15b91548595867450132e9f9204d2c9dbc))
+* **deps:** update dependency zod to v4.0.13 ([30cf83a](https://github.com/phi-ag/solid-pages/commit/30cf83a3334602459e9ee4b7692ad54ee21a6835))
+* **deps:** update dependency zod to v4.0.14 ([0b6d44d](https://github.com/phi-ag/solid-pages/commit/0b6d44d730a87cb7769441372042847ba3ed4cba))
+* **deps:** update dependency zod to v4.0.15 ([ba5403f](https://github.com/phi-ag/solid-pages/commit/ba5403f9fe4df24aff78b7536b5c986f65d03226))
+* **deps:** update dependency zod to v4.0.16 ([01e72ea](https://github.com/phi-ag/solid-pages/commit/01e72eaa125ba6549364baceec1160cf94be50bb))
+* **deps:** update dependency zod to v4.0.17 ([9933073](https://github.com/phi-ag/solid-pages/commit/99330735b203e824f28cbaae87dcd5cb4c5882c7))
+* **deps:** update dependency zod to v4.0.8 ([7cbe40a](https://github.com/phi-ag/solid-pages/commit/7cbe40aada783e088e0208c7d6bf91fe1aecd982))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([7b15d38](https://github.com/phi-ag/solid-pages/commit/7b15d389399824e63607ea091df76e40b53da0c9))
+* **deps:** lock file maintenance ([ab76145](https://github.com/phi-ag/solid-pages/commit/ab76145bfb5f71a1209e41772ef08f77e513cf74))
+* **deps:** lock file maintenance ([73e84bd](https://github.com/phi-ag/solid-pages/commit/73e84bde32bb1ae74004d3b79b11f45b2e506c28))
+* **deps:** update actions/cache digest to 0400d5f ([a3afd07](https://github.com/phi-ag/solid-pages/commit/a3afd0788c559bd11f1abd6728756d50df0a478f))
+* **deps:** update actions/checkout action to v5 ([fdcd119](https://github.com/phi-ag/solid-pages/commit/fdcd119f5f0790b6c486695da5a840d06d1c2dfb))
+* **deps:** update actions/checkout digest to 08eba0b ([0fcd461](https://github.com/phi-ag/solid-pages/commit/0fcd461755a6f216bc7cfb048b9b41e5ec967ae6))
+* **deps:** update dependency @testing-library/jest-dom to v6.6.4 ([10b3d97](https://github.com/phi-ag/solid-pages/commit/10b3d9738e2162107bdaebef7564efc4455a7b36))
+* **deps:** update dependency @testing-library/jest-dom to v6.7.0 ([6689ba0](https://github.com/phi-ag/solid-pages/commit/6689ba02197f55e9b57d065fe1a933005e0a3065))
+* **deps:** update dependency @types/node to v24.1.0 ([2572f8a](https://github.com/phi-ag/solid-pages/commit/2572f8a58c0eca7c75ab536d5c015b8a1cbb5453))
+* **deps:** update dependency @types/node to v24.2.0 ([7f6dabd](https://github.com/phi-ag/solid-pages/commit/7f6dabd882090d2ec3566c5ee7be211f9b3b03f1))
+* **deps:** update dependency @types/node to v24.2.1 ([a53f876](https://github.com/phi-ag/solid-pages/commit/a53f8767d94f23d243d36e3794530ff9beee3801))
+* **deps:** update dependency @types/node to v24.3.0 ([8661760](https://github.com/phi-ag/solid-pages/commit/866176022a2055ca083f73354c98497ad269d66d))
+* **deps:** update dependency lighthouse to v12.8.1 ([6b635c0](https://github.com/phi-ag/solid-pages/commit/6b635c00062fe5e25b81eeda4bbea6d7c105d0e0))
+* **deps:** update dependency typescript to v5.9.2 ([b240e9b](https://github.com/phi-ag/solid-pages/commit/b240e9b657473d4a20cb67ea0b99031ef1c8bc24))
+* **deps:** update dependency typescript-eslint to v8.39.0 ([63db151](https://github.com/phi-ag/solid-pages/commit/63db15175f0f23ecef4f7ff4ad365ed614e423db))
+* **deps:** update dependency typescript-eslint to v8.39.1 ([ff4a5d4](https://github.com/phi-ag/solid-pages/commit/ff4a5d4c89666ad6a59f83b62781ea746c5570f6))
+* **deps:** update dependency vite-plugin-solid to v2.11.8 ([b4e6912](https://github.com/phi-ag/solid-pages/commit/b4e6912689099986bf514bec4593640f8afd60f9))
+* **deps:** update dependency wrangler to v4.25.1 ([0b1d3d8](https://github.com/phi-ag/solid-pages/commit/0b1d3d80b91781d02b4db3829df7d4c80c16a839))
+* **deps:** update dependency wrangler to v4.26.0 ([b9b8988](https://github.com/phi-ag/solid-pages/commit/b9b898842e494e75efc10dcda475d1cf2fff5733))
+* **deps:** update dependency wrangler to v4.26.1 ([df7c008](https://github.com/phi-ag/solid-pages/commit/df7c0083cd9425dd4bc8e3c7516178bb6bac4741))
+* **deps:** update dependency wrangler to v4.27.0 ([7ca5b00](https://github.com/phi-ag/solid-pages/commit/7ca5b008a1daa8a9703c8a6893225562ed25195a))
+* **deps:** update dependency wrangler to v4.28.0 ([6a72f2d](https://github.com/phi-ag/solid-pages/commit/6a72f2d7a2dd079bf9f927df5bbaeb5f47fa9383))
+* **deps:** update dependency wrangler to v4.28.1 ([ad4a3a7](https://github.com/phi-ag/solid-pages/commit/ad4a3a72527da7f916b7a7fe90b43c1bb48634e4))
+* **deps:** update dependency wrangler to v4.29.0 ([985f8cd](https://github.com/phi-ag/solid-pages/commit/985f8cd923ac2112b2a833a4de7c0c2b59bcf4d9))
+* **deps:** update dependency wrangler to v4.29.1 ([2b8e8a5](https://github.com/phi-ag/solid-pages/commit/2b8e8a5125475d575957fe2e61b74203c9a46c46))
+* **deps:** update dependency wrangler to v4.30.0 ([7c21bba](https://github.com/phi-ag/solid-pages/commit/7c21bba5e7ad721e577102d00efc13d5762bbffe))
+* **deps:** update eslint monorepo to v9.32.0 ([b661933](https://github.com/phi-ag/solid-pages/commit/b661933cc7870850239140881d0468682d81d3da))
+* **deps:** update eslint monorepo to v9.33.0 ([c6b9dae](https://github.com/phi-ag/solid-pages/commit/c6b9dae09cbc0c81151048d31f6c1c24de30bb0b))
+* **deps:** update node.js to v24.5.0 ([05b5c9a](https://github.com/phi-ag/solid-pages/commit/05b5c9aacff5a09e8663395ba8a9aea9f0df2194))
+* **deps:** update node.js to v24.6.0 ([ff8fde6](https://github.com/phi-ag/solid-pages/commit/ff8fde6694b30f1c65a18771f6f337ec833edc39))
+* **deps:** update phi-ag/run-playwright digest to fa6033d ([f2a688c](https://github.com/phi-ag/solid-pages/commit/f2a688c13b2f56c13b5ccd28631c5a41d0dd25d5))
+* **deps:** update playwright ([c65e7c0](https://github.com/phi-ag/solid-pages/commit/c65e7c087a1c81ee7b852472a344a4c47d612e98))
+* **deps:** update pnpm to v10.14.0 ([4a0acac](https://github.com/phi-ag/solid-pages/commit/4a0acac0abfd49e09862f773a70d929faccea881))
+* **deps:** update tailwindcss monorepo to v4.1.12 ([98a3769](https://github.com/phi-ag/solid-pages/commit/98a37699841138d15fba5f9712996751131df31a))
+* **deps:** update terraform cloudflare to v4.52.1 ([5cefdc7](https://github.com/phi-ag/solid-pages/commit/5cefdc7da92608bdd3012a2781935e1d4d376c2a))
+
 ## [1.5.21](https://github.com/phi-ag/solid-pages/compare/v1.5.20...v1.5.21) (2025-07-22)
 
 
