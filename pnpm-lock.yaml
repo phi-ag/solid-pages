@@ -100,11 +100,11 @@ importers:
         specifier: 16.3.0
         version: 16.3.0
       lighthouse:
-        specifier: 12.8.1
-        version: 12.8.1
+        specifier: 12.8.2
+        version: 12.8.2
       playwright-lighthouse:
         specifier: 4.0.0
-        version: 4.0.0(lighthouse@12.8.1)(playwright-core@1.55.0)
+        version: 4.0.0(lighthouse@12.8.2)(playwright-core@1.55.0)
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -1517,8 +1517,8 @@ packages:
     resolution: {integrity: sha512-dfUnCxiN9H4ap84DvD2ubjw+3vUNpstxa0TneY/Paat8a3R4uQZDLSvWjmznAY/DoahqTHl9V46HF/Zs3F29pg==}
     engines: {node: '>= 10.0.0'}
 
-  '@paulirish/trace_engine@0.0.57':
-    resolution: {integrity: sha512-s+JNJ53B1MiEqCOD2hnK96wFTRRStxFmtm6QaIe2jiNI+lkS9mYEgnHOH2caQ/dEPn6wY+f2u5dW6aFYjmbaiw==}
+  '@paulirish/trace_engine@0.0.59':
+    resolution: {integrity: sha512-439NUzQGmH+9Y017/xCchBP9571J4bzhpcNhrxorf7r37wcyJZkgUfrUsRL3xl+JDcZ6ORhoFCzCw98c6S3YHw==}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -1543,8 +1543,8 @@ packages:
     peerDependencies:
       '@opentelemetry/api': ^1.8
 
-  '@puppeteer/browsers@2.10.7':
-    resolution: {integrity: sha512-wHWLkQWBjHtajZeqCB74nsa/X70KheyOhySYBRmVQDJiNj0zjZR/naPCvdWjMhcG1LmjaMV/9WtTo5mpe8qWLw==}
+  '@puppeteer/browsers@2.10.8':
+    resolution: {integrity: sha512-f02QYEnBDE0p8cteNoPYHHjbDuwyfbe4cCIVlNi8/MRicIxFW4w4CfgU0LNgWEID6s06P+hRJ1qjpBLMhPRCiQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2886,8 +2886,8 @@ packages:
   devtools-protocol@0.0.1475386:
     resolution: {integrity: sha512-RQ809ykTfJ+dgj9bftdeL2vRVxASAuGU+I9LEx9Ij5TXU5HrgAQVmzi72VA+mkzscE12uzlRv5/tWWv9R9J1SA==}
 
-  devtools-protocol@0.0.1478340:
-    resolution: {integrity: sha512-EqhRVWo+j3O1a5LEvZi5fFlBRhvciqYoCHpsEfPcIpA/Abh0W1LF+V3AIvQD9Z4Apj0+p3U07vb7uXfn2hm3HQ==}
+  devtools-protocol@0.0.1507524:
+    resolution: {integrity: sha512-OjaNE7qpk6GRTXtqQjAE5bGx6+c4F1zZH0YXtpZQLM92HNXx4zMAaqlKhP4T52DosG6hDW8gPMNhGOF8xbwk/w==}
 
   diff@8.0.2:
     resolution: {integrity: sha512-sSuxWU5j5SR9QQji/o2qMvqRNYRDOcBTgsJ/DeCf4iSN4gW+gNMXM7wFIP+fdXZxoNiAnHUTGjCr+TSWXdRDKg==}
@@ -3972,8 +3972,8 @@ packages:
   lighthouse-stack-packs@1.12.2:
     resolution: {integrity: sha512-Ug8feS/A+92TMTCK6yHYLwaFMuelK/hAKRMdldYkMNwv+d9PtWxjXEg6rwKtsUXTADajhdrhXyuNCJ5/sfmPFw==}
 
-  lighthouse@12.8.1:
-    resolution: {integrity: sha512-z0ceMjEM16C0HuADzMFgXe32BGJ7aJMSx48qTCcQYYjMUPxF1XWTP3rGXJEgB6P/VvS+yfp3TOMR3FpmLo0W3w==}
+  lighthouse@12.8.2:
+    resolution: {integrity: sha512-+5SKYzVaTFj22MgoYDPNrP9tlD2/Ay7j3SxPSFD9FpPyVxGr4UtOQGKyrdZ7wCmcnBaFk0mCkPfARU3CsE0nvA==}
     engines: {node: '>=18.16'}
     hasBin: true
 
@@ -4730,8 +4730,8 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  puppeteer-core@24.17.0:
-    resolution: {integrity: sha512-RYOBKFiF+3RdwIZTEacqNpD567gaFcBAOKTT7742FdB1icXudrPI7BlZbYTYWK2wgGQUXt9Zi1Yn+D5PmCs4CA==}
+  puppeteer-core@24.17.1:
+    resolution: {integrity: sha512-Msh/kf9k1XFN0wuKiT4/npMmMWOT7kPBEUw01gWvRoKOOoz3It9TEmWjnt4Gl4eO+p73VMrvR+wfa0dm9rfxjw==}
     engines: {node: '>=18'}
 
   pure-rand@7.0.1:
@@ -4927,10 +4927,6 @@ packages:
 
   scule@1.3.0:
     resolution: {integrity: sha512-6FtHJEvt+pVMIB9IBY+IcCJ6Z5f1iQnytgyfKMhDKgmzYG+TeH/wx1y3l27rshSbLiSanrR9ffZDrEsmjlQF2g==}
-
-  semver@5.7.2:
-    resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
-    hasBin: true
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -5305,11 +5301,11 @@ packages:
     resolution: {integrity: sha512-t2T/WLB2WRgZ9EpE4jgPJ9w+i66UZfDc8wHh0xrwiRNN+UwH98GIJkTeZqX9rg0i0ptwzqW+uYeIF0T4F8LR7A==}
     engines: {node: '>=14.0.0'}
 
-  tldts-core@6.1.86:
-    resolution: {integrity: sha512-Je6p7pkk+KMzMv2XXKmAE3McmolOQFdxkKw0R8EYNr7sELW46JqnNeTX8ybPiQgvg1ymCoF8LXs5fzFaZvJPTA==}
+  tldts-core@7.0.12:
+    resolution: {integrity: sha512-3K76aXywJFduGRsOYoY5JzINLs/WMlOkeDwPL+8OCPq2Rh39gkSDtWAxdJQlWjpun/xF/LHf29yqCi6VC/rHDA==}
 
-  tldts-icann@6.1.86:
-    resolution: {integrity: sha512-NFxmRT2lAEMcCOBgeZ0NuM0zsK/xgmNajnY6n4S1mwAKocft2s2ise1O3nQxrH3c+uY6hgHUV9GGNVp7tUE4Sg==}
+  tldts-icann@7.0.12:
+    resolution: {integrity: sha512-Lk1sJ3Soq97iG6gFj95YQWMWCNQD9b9LkZMooM6ojnTdmo8xpGBv6J+ycwTpY98Xz1RTqdzR/tCYpW7e/g+2xw==}
 
   tmp-promise@3.0.3:
     resolution: {integrity: sha512-RwM7MoPojPxsOBYnyd2hy0bxtIlVrihNs9pj5SUvY8Zz1sQcQG2tG1hSr8PDxfgEB8RNKDhqbIlroIarSNDNsQ==}
@@ -7078,7 +7074,7 @@ snapshots:
       '@parcel/watcher-win32-ia32': 2.5.1
       '@parcel/watcher-win32-x64': 2.5.1
 
-  '@paulirish/trace_engine@0.0.57':
+  '@paulirish/trace_engine@0.0.59':
     dependencies:
       legacy-javascript: 0.0.1
       third-party-web: 0.27.0
@@ -7109,7 +7105,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@puppeteer/browsers@2.10.7':
+  '@puppeteer/browsers@2.10.8':
     dependencies:
       debug: 4.4.1
       extract-zip: 2.0.1
@@ -8594,7 +8590,7 @@ snapshots:
 
   devtools-protocol@0.0.1475386: {}
 
-  devtools-protocol@0.0.1478340: {}
+  devtools-protocol@0.0.1507524: {}
 
   diff@8.0.2: {}
 
@@ -9741,15 +9737,15 @@ snapshots:
 
   lighthouse-stack-packs@1.12.2: {}
 
-  lighthouse@12.8.1:
+  lighthouse@12.8.2:
     dependencies:
-      '@paulirish/trace_engine': 0.0.57
+      '@paulirish/trace_engine': 0.0.59
       '@sentry/node': 9.46.0
       axe-core: 4.10.3
       chrome-launcher: 1.2.0
       configstore: 7.0.0
       csp_evaluator: 1.1.5
-      devtools-protocol: 0.0.1478340
+      devtools-protocol: 0.0.1507524
       enquirer: 2.4.1
       http-link-header: 1.1.3
       intl-messageformat: 10.7.16
@@ -9762,12 +9758,11 @@ snapshots:
       metaviewport-parser: 0.3.0
       open: 8.4.2
       parse-cache-control: 1.0.1
-      puppeteer-core: 24.17.0
+      puppeteer-core: 24.17.1
       robots-parser: 3.0.1
-      semver: 5.7.2
       speedline-core: 1.4.3
       third-party-web: 0.27.0
-      tldts-icann: 6.1.86
+      tldts-icann: 7.0.12
       ws: 7.5.10
       yargs: 17.7.2
       yargs-parser: 21.1.1
@@ -10447,10 +10442,10 @@ snapshots:
 
   playwright-core@1.55.0: {}
 
-  playwright-lighthouse@4.0.0(lighthouse@12.8.1)(playwright-core@1.55.0):
+  playwright-lighthouse@4.0.0(lighthouse@12.8.2)(playwright-core@1.55.0):
     dependencies:
       chalk: 4.1.2
-      lighthouse: 12.8.1
+      lighthouse: 12.8.2
       ua-parser-js: 1.0.41
     optionalDependencies:
       playwright-core: 1.55.0
@@ -10571,9 +10566,9 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  puppeteer-core@24.17.0:
+  puppeteer-core@24.17.1:
     dependencies:
-      '@puppeteer/browsers': 2.10.7
+      '@puppeteer/browsers': 2.10.8
       chromium-bidi: 8.0.0(devtools-protocol@0.0.1475386)
       debug: 4.4.1
       devtools-protocol: 0.0.1475386
@@ -10823,8 +10818,6 @@ snapshots:
   safe-stable-stringify@2.5.0: {}
 
   scule@1.3.0: {}
-
-  semver@5.7.2: {}
 
   semver@6.3.1: {}
 
@@ -11300,11 +11293,11 @@ snapshots:
 
   tinyspy@4.0.3: {}
 
-  tldts-core@6.1.86: {}
+  tldts-core@7.0.12: {}
 
-  tldts-icann@6.1.86:
+  tldts-icann@7.0.12:
     dependencies:
-      tldts-core: 6.1.86
+      tldts-core: 7.0.12
 
   tmp-promise@3.0.3:
     dependencies:
