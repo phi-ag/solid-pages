@@ -15,8 +15,7 @@ const lighthouse = async (page: Page, name: string) => {
       performance: threshold,
       accessibility: threshold,
       "best-practices": threshold,
-      seo: threshold,
-      pwa: threshold
+      seo: threshold
     },
     reports: {
       name,
