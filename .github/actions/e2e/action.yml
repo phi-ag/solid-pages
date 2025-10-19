@@ -9,6 +9,7 @@ runs:
         version: v1.56.1-noble@sha256:f1e7e01021efd65dd1a2c56064be399f3e4de00fd021ac561325f2bfbb2b837a
         options: -v ${STORE_PATH}:${STORE_PATH}
         run: |
+          npm install -g --force corepack
           corepack enable
           corepack prepare --activate
 

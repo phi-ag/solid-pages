@@ -9,6 +9,7 @@ mkdir -p .playwright
 cat <<EOF >.playwright/run.sh
 #!/usr/bin/env bash
 set -euo pipefail
+npm install -g --force corepack
 corepack enable
 corepack prepare --activate
 pnpm config set store-dir ${STORE_PATH}

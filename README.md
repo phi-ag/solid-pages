@@ -98,6 +98,8 @@ Install `Node.js`
 
 Install `pnpm`
 
+    npm uninstall -g yarn pnpm
+    npm install -g corepack
     corepack enable
     corepack prepare --activate
 
