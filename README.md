@@ -7,6 +7,12 @@
 
 Opinionated demo app running [SolidStart](https://start.solidjs.com/) on [Cloudflare Pages](https://pages.cloudflare.com/).
 
+> [!WARNING]
+> This setup is outdated. Upcoming changes:
+>
+> 1. [Migrate to SolidStart Devinxi](https://github.com/solidjs/solid-start/pull/1942)
+> 2. [Migrate from Pages to Workers](https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/)
+
 ## Setup
 
 ### Accounts
