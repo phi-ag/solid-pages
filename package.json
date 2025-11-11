@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@sentry/core": "10.24.0",
-    "@solidjs/router": "0.15.3",
+    "@solidjs/router": "0.15.4",
     "@solidjs/start": "1.2.0",
     "class-variance-authority": "0.7.1",
     "drizzle-orm": "0.44.7",
