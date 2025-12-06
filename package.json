@@ -68,7 +68,7 @@
     "globals": "16.5.0",
     "lighthouse": "13.0.1",
     "playwright-lighthouse": "4.0.0",
-    "prettier": "3.7.3",
+    "prettier": "3.7.4",
     "prettier-plugin-sql": "0.19.2",
     "prettier-plugin-tailwindcss": "0.7.2",
     "tailwindcss": "4.1.17",
