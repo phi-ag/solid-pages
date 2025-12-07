@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@sentry/core':
-        specifier: 10.28.0
-        version: 10.28.0
+        specifier: 10.29.0
+        version: 10.29.0
       '@solidjs/router':
         specifier: 0.15.4
         version: 0.15.4(solid-js@1.9.10)
@@ -1526,8 +1526,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@sentry/core@10.28.0':
-    resolution: {integrity: sha512-9yFIPxyfWkDzt+IaRjboeNiXOKi22ZRGG3ELmZlLak8JCC+vA+q/+AmF/8Jnw59WlL3/KVC1Q8+t8bLCkxlswg==}
+  '@sentry/core@10.29.0':
+    resolution: {integrity: sha512-olQ2DU9dA/Bwsz3PtA9KNXRMqBWRQSkPw+MxwWEoU1K1qtiM9L0j6lbEFb5iSY3d7WYD5MB+1d5COugjSBrHtw==}
     engines: {node: '>=18'}
 
   '@sentry/core@8.9.2':
@@ -6492,7 +6492,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.53.2':
     optional: true
 
-  '@sentry/core@10.28.0': {}
+  '@sentry/core@10.29.0': {}
 
   '@sentry/core@8.9.2':
     dependencies:
