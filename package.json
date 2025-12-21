@@ -35,7 +35,7 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
-    "@sentry/core": "10.31.0",
+    "@sentry/core": "10.32.0",
     "@solidjs/router": "0.15.4",
     "@solidjs/start": "1.2.0",
     "class-variance-authority": "0.7.1",
