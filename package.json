@@ -59,7 +59,7 @@
     "@vitest/coverage-v8": "3.2.4",
     "axe-core": "4.11.1",
     "axe-html-reporter": "2.2.11",
-    "better-sqlite3": "12.5.0",
+    "better-sqlite3": "12.6.0",
     "drizzle-kit": "0.31.8",
     "eslint": "9.39.2",
     "eslint-plugin-jsx-a11y": "6.10.2",
