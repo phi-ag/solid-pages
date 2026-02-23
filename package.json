@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "4.11.1",
-    "@eslint/js": "9.39.2",
+    "@eslint/js": "9.39.3",
     "@playwright/test": "1.58.2",
     "@tailwindcss/vite": "4.2.0",
     "@testing-library/jest-dom": "6.9.1",
@@ -61,7 +61,7 @@
     "axe-html-reporter": "2.2.11",
     "better-sqlite3": "12.6.2",
     "drizzle-kit": "0.31.8",
-    "eslint": "9.39.2",
+    "eslint": "9.39.3",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-solid": "0.14.5",
     "fast-check": "4.5.3",
