@@ -13,6 +13,14 @@ export default defineConfig({
   },
   vite: {
     plugins: [tailwindcss()],
+    ssr: {
+      external: ["cloudflare:workers"]
+    },
+    build: {
+      rollupOptions: {
+        external: ["cloudflare:workers"]
+      }
+    },
     define: {
       "import.meta.env.VERSION": JSON.stringify(version),
       "import.meta.env.REVISION": JSON.stringify(revision)

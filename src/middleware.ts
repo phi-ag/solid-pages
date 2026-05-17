@@ -1,6 +1,7 @@
 import { redirect } from "@solidjs/router";
 import { createMiddleware } from "@solidjs/start/middleware";
 import { type FetchEvent } from "@solidjs/start/server";
+import { env } from "cloudflare:workers";
 import { type Toucan } from "toucan-js";
 import { sendWebResponse } from "vinxi/http";
 import { type PlatformProxy } from "wrangler";
@@ -24,7 +25,6 @@ declare global {
 declare module "@solidjs/start/server" {
   interface RequestEventLocals {
     cf: IncomingRequestCfProperties;
-    env: Env;
     caches: CacheStorage;
     waitUntil: (promise: Promise<unknown>) => void;
     passThroughOnException: () => void;
@@ -47,14 +47,12 @@ const cloudflare = async (event: FetchEvent): Promise<void> => {
   if (import.meta.env.DEV) {
     const platformProxy = await ensurePlatformProxy();
     event.locals.cf = platformProxy.cf;
-    event.locals.env = platformProxy.env;
     event.locals.caches = platformProxy.caches as unknown as CacheStorage;
     event.locals.waitUntil = platformProxy.ctx.waitUntil;
     event.locals.passThroughOnException = platformProxy.ctx.passThroughOnException;
   } else {
     const context = event.nativeEvent.context;
     event.locals.cf = context.cf;
-    event.locals.env = context.cloudflare.env;
     event.locals.caches = caches as unknown as CacheStorage;
     event.locals.waitUntil = context.waitUntil;
     event.locals.passThroughOnException = context.passThroughOnException;
@@ -62,9 +60,9 @@ const cloudflare = async (event: FetchEvent): Promise<void> => {
 };
 
 const redirectToDomain = (event: FetchEvent): Response | undefined => {
-  if (import.meta.env.DEV || event.locals.env.LOCAL) return;
+  if (import.meta.env.DEV || env.LOCAL) return;
 
-  const domain = event.locals.env.DOMAIN;
+  const domain = env.DOMAIN;
   const url = new URL(event.request.url);
 
   if (url.host !== domain) {
@@ -80,7 +78,7 @@ const sentry = (event: FetchEvent): void => {
 };
 
 const user = async (event: FetchEvent): Promise<Response | undefined> => {
-  if (!event.locals.env.JWT_ISSUER) return;
+  if (!env.JWT_ISSUER) return;
 
   const user = await tryGetUser(event);
   if (!user) {
