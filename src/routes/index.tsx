@@ -1,4 +1,5 @@
 import { createAsync, query } from "@solidjs/router";
+import { env } from "cloudflare:workers";
 import { sql } from "drizzle-orm";
 import { Suspense } from "solid-js";
 import { getRequestEvent } from "solid-js/web";
@@ -11,8 +12,6 @@ const getData = query(async () => {
 
   const event = getRequestEvent();
   if (!event) throw Error("Missing event");
-
-  const env = event.locals.env;
 
   const user = event.locals.user;
   const metadata = env.CF_VERSION_METADATA;
