@@ -15,8 +15,8 @@ importers:
         specifier: 10.47.0
         version: 10.47.0
       '@solidjs/router':
-        specifier: 0.16.1
-        version: 0.16.1(solid-js@1.9.12)
+        specifier: 0.16.3
+        version: 0.16.3(solid-js@1.9.12)
       '@solidjs/start':
         specifier: 1.3.2
         version: 1.3.2(@testing-library/jest-dom@6.9.1)(solid-js@1.9.12)(vinxi@0.5.11(@types/node@25.7.0)(better-sqlite3@12.9.0)(db0@0.3.4(better-sqlite3@12.9.0)(drizzle-orm@0.45.1(@opentelemetry/api@1.9.1)(@types/pg@8.6.1)(better-sqlite3@12.9.0)))(drizzle-orm@0.45.1(@opentelemetry/api@1.9.1)(@types/pg@8.6.1)(better-sqlite3@12.9.0))(ioredis@5.10.1)(jiti@2.6.1)(lightningcss@1.32.0)(terser@5.46.1))(vite@6.4.3(@types/node@25.7.0)(jiti@2.6.1)(lightningcss@1.32.0)(terser@5.46.1))
@@ -1760,8 +1760,8 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@solidjs/router@0.16.1':
-    resolution: {integrity: sha512-IhyjedgC6LRpw/8CPGGI89FrV+r0xTHzOl2c4CRyzYQ1bLepJxbVI1LLKvsavMWY5TRBRacV7hAeOhuTXkjiqg==}
+  '@solidjs/router@0.16.3':
+    resolution: {integrity: sha512-WWQkmSmSpl+15HgUktGPbeXkgWmonj4XwPOcZVHJz1EQV3dz5qWHIyQ/BKXFevor6u/0dKvC9FlUmKmDwE1QHw==}
     peerDependencies:
       solid-js: ^1.8.6
 
@@ -6882,7 +6882,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@solidjs/router@0.16.1(solid-js@1.9.12)':
+  '@solidjs/router@0.16.3(solid-js@1.9.12)':
     dependencies:
       solid-js: 1.9.12
 
