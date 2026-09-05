@@ -60,7 +60,7 @@
     "axe-core": "4.13.0",
     "axe-html-reporter": "2.2.11",
     "better-sqlite3": "12.11.1",
-    "drizzle-kit": "0.31.8",
+    "drizzle-kit": "0.31.10",
     "eslint": "9.39.5",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-solid": "0.14.5",
