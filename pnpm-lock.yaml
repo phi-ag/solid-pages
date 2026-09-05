@@ -91,8 +91,8 @@ importers:
         specifier: 6.10.2
         version: 6.10.2(eslint@9.39.5(jiti@2.6.1))
       eslint-plugin-solid:
-        specifier: 0.14.5
-        version: 0.14.5(eslint@9.39.5(jiti@2.6.1))(typescript@6.0.3)
+        specifier: 0.17.0
+        version: 0.17.0(eslint@9.39.5(jiti@2.6.1))(typescript@6.0.3)
       fast-check:
         specifier: 4.8.0
         version: 4.8.0
@@ -3035,11 +3035,11 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-solid@0.14.5:
-    resolution: {integrity: sha512-nfuYK09ah5aJG/oEN6P1qziy1zLgW4PDWe75VNPi4CEFYk1x2AEqwFeQfEPR7gNn0F2jOeqKhx2E+5oNCOBYWQ==}
-    engines: {node: '>=18.0.0'}
+  eslint-plugin-solid@0.17.0:
+    resolution: {integrity: sha512-0x38zjAZVm4vW5u5mS14WxO9BJsal3IxsR/8QOB2nBiXBdH1LlbbRs2YfqgtPWVpy3OIlnt6yGhoXuZmoHULwQ==}
+    engines: {node: '>=22.0.0'}
     peerDependencies:
-      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
+      eslint: ^9.0.0 || ^10.0.0
       typescript: '>=4.8.4'
 
   eslint-scope@8.4.0:
@@ -8310,7 +8310,7 @@ snapshots:
       safe-regex-test: 1.1.0
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-solid@0.14.5(eslint@9.39.5(jiti@2.6.1))(typescript@6.0.3):
+  eslint-plugin-solid@0.17.0(eslint@9.39.5(jiti@2.6.1))(typescript@6.0.3):
     dependencies:
       '@typescript-eslint/utils': 8.58.0(eslint@9.39.5(jiti@2.6.1))(typescript@6.0.3)
       eslint: 9.39.5(jiti@2.6.1)
