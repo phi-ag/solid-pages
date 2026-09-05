@@ -73,7 +73,7 @@
     "prettier-plugin-tailwindcss": "0.7.2",
     "tailwindcss": "4.2.2",
     "typescript": "6.0.3",
-    "typescript-eslint": "8.58.0",
+    "typescript-eslint": "8.69.0",
     "vinxi": "0.5.11",
     "vite": "6.4.3",
     "vite-plugin-solid": "2.11.14",
