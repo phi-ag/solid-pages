@@ -44,7 +44,7 @@
     "solid-js": "1.9.15",
     "toucan-js": "4.1.1",
     "uuid": "14.0.2",
-    "zod": "4.3.6"
+    "zod": "4.5.4"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.13.0",
